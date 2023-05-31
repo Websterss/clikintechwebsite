@@ -1,5 +1,7 @@
 import "./NavbarStyles.css";
 import { Component } from "react";
+import logo from "./logo.png";
+
 class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
@@ -9,7 +11,10 @@ class Navbar extends Component {
     return (
       <>
         <nav>
-          <div>
+        <div className="logo">
+            <img src={logo} alt="Logo" />
+        </div>
+        <div>
             <ul
               id="navbar"
               className={this.state.clicked ? "#navbar active" : "#navbar"}
@@ -32,14 +37,14 @@ class Navbar extends Component {
                 <a href="index.html">Contact Us</a>
               </li>
               <li>
-                <a href="index.html">Free Trial</a>
-              </li>
+              <button className="free-trial-button">Free Trial</button>
+            </li>
             </ul>
-          </div>
+            </div>
           <div id="mobile" onClick={this.handleClick}>
             <i
               id="bar"
-              classname={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
             ></i>
           </div>
         </nav>
