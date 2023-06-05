@@ -5,7 +5,7 @@ import image from '../res/Image1.png'
 function Welcome(){
     
     return(
-    <div> 
+    <div class='div1'> 
     <img src={image} alt="imagehere" class="imgc"/>   
     <div class="divc">
     <p class='title'>We Help  Businesses

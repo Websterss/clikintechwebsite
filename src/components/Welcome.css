@@ -5,6 +5,10 @@
     
   }
 
+.div1{
+    display: flex;
+}  
+
 .divc{
 height: 536px;
 width: 622px;
