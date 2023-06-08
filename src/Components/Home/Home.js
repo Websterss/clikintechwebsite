@@ -11,7 +11,6 @@ function Home() {
         <Welcome2 />
         <Contact_us />
         <Footer />
-       
     </div>
   )
 }
