@@ -51,7 +51,8 @@ text-align: left;
     top: 135.3941650390625px;
     border-radius: nullpx;
     margin-left:0;
-    margin-top:-40px;
+    margin-top:-10px;
+    opacity: 1;
 
 }
 
@@ -62,7 +63,7 @@ text-align: left;
     top: 255px;
     border-radius: 0px;
     margin-left: -60px;
-    margin-top: 10px;
+    margin-top: -30px;
 
 }
 
