@@ -1,12 +1,10 @@
-*{
-    font-family: "Inter";
-    background-color:#050921;
-    color: #FFFFFF;
-    
-  }
+
 
 .div1a{
     display: flex;
+    font-family: "Inter";
+    background-color:#050921;
+    color: #FFFFFF;
 }  
 
 .divca{
