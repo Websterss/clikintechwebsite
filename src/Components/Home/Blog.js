@@ -26,8 +26,8 @@ const Blog = () => {
                         <div className="blog-text">
                             {/* <span>18 July 2023 / web design</span> */}
                             <a href="#" className="blog-title">The Ultimate Guide To SEO Success In 2023</a>
-                            <p>Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.</p>
-                            <button className="btn"><a href="#">Explore more </a></button>
+                            <p >Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.</p>
+                            <a href="#" className="btn1">Explore more {">"}</a>
                         </div>
                     </div>
 
@@ -43,8 +43,8 @@ const Blog = () => {
                         <div className="blog-text">
                             {/* <span>18 July 2023 / web design</span> */}
                             <a href="#" className="blog-title">Mastering Social Media Analytics:Measuring Success</a>
-                            <p>Learn how to effectively measure and optimise your social media marketing strategies.</p>
-                            <button className="btn"><a href="#">Explore more</a></button>
+                            <p >Learn how to effectively measure and optimise your social media marketing strategies.</p>
+                            <a href="#" className="btn1">Explore more {">"}</a>
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@ const Blog = () => {
                             {/* <span>18 July 2023 / web design</span> */}
                             <a href="#" className="blog-title">Unleashing The Potential of Data-Driven Marketing</a>
                             <p>Discover the strategies and tools to harness the power nof data to limitless possibilities of data-driven marketing.</p>
-                            <button className="btn">Explore more</button>
+                            <a href="#" className="btn1">Explore more {">"}</a>
                         </div>
                     </div>
 

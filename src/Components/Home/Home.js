@@ -12,6 +12,7 @@ function Home() {
         <Welcome />
         <Welcome2 />
         <Our_Services />
+        <Blog/>
         <Contact_us />
         <Footer />
        

@@ -15,8 +15,7 @@ a{
 }
 
 .blog-heading{
-    display: +
-    flex;
+    display: +flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -32,6 +31,7 @@ a{
     font-weight: 600;
     border-bottom: 3px solid white;
     padding-bottom: 5px;
+    font-family: 'Inter';
 }
 
 .blog-container{
@@ -40,6 +40,7 @@ a{
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
+    
 }
 
 .blog-box{
@@ -47,6 +48,8 @@ a{
     background-color: #000137;
     /* border: 1px solid #ececec; */
     margin: 20px;
+    /* top:194px;
+    bottom:92px; */
 }
 
 .blog-img{
@@ -59,6 +62,8 @@ a{
     height: 100%;
     object-fit: cover;
     object-position: center;
+  
+    
 }
 
 .blog-text{
@@ -76,6 +81,7 @@ a{
     font-size: 1rem;
     font-weight: 500;
     color: white;
+    font-family: 'Inter';
 }
 
 .blog-text .blog-title:hover{
@@ -84,18 +90,25 @@ a{
 }
 
 .blog-text p{
-    color: #9b9b9b;
-    font-size: 0.9rem;
-    display: -webkit-box;
+    /* color: #9b9b9b; */
+    /* font-size: 0.9rem; */
+    /* display: -webkit-box;
     -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    -webkit-box-orient: vertical; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
     /* margin: 20px 0px; */
 }
 
 .blog-text a{
     color: #0f0f0f;
+    
 }
 
 .blog-text a:hover{
@@ -103,17 +116,25 @@ a{
     transition: all ease 0.3s;
 }
 
-.btn{
+.btn1{
     padding: 0.2rem;
-    background-color: white;
+    /* color: #050921; */
     border: none;
     transition: 0.2s;
     margin: 0 10rem 0.5rem 0;
     border-radius: 20px;
     font-size: 0.7rem;
+    background-color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.75px;
+    line-height: 17px;
+    text-align: center;
 }
 
 .btn:hover{
     color: #f33c3c;
     transition: 0.2s;
 }
+
