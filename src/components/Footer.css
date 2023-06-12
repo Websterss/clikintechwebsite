@@ -1,11 +1,14 @@
  .footer {
     background-color: #050921;
-    color: #ffffff;
     padding: 20px;
     font-size: 17px;
     display: flex;
     flex-direction: column;
   }
+  .footer,
+.footer * {
+  color: white; /* Set the text color to white */
+}
   body {
     margin: 0;
   }
@@ -17,7 +20,7 @@
     font-size: 15px;
     background-color: #f4f4f4;
     color: black;
-    padding: 25px;
+    padding: 20px;
     margin-top: auto;
     margin-left: 0;
     margin-right: 0; 
