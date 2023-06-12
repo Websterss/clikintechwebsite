@@ -1,6 +1,6 @@
 import React from 'react';
 import './Welcome.css'
-import image from '../res/Image1.png'
+import image from './res/Image1.png'
 
 function Welcome(){
     

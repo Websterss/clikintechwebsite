@@ -1,8 +1,8 @@
 import React from 'react';
 import './Welcome2.css'
-import image from '../res/Image2.png'
-import image2 from '../res/Image3.png'
-import image3 from '../res/Image4.png'
+import image from './res/Image2.png'
+import image2 from './res/Image3.png'
+import image3 from './res/Image4.png'
 
 function Welcome2(){
     

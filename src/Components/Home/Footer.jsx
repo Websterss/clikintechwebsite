@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../res/logo.png';
+import logo from './res/logo.png';
 import { IconContext } from "react-icons"; 
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
 

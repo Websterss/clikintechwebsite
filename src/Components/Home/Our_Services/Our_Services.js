@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Our_Services.css";
-import Digital_Marketing from "../../digital Marketing.png";
-import WebDevelopment from "../../web development.png";
-import MobileAppDevelopment from "../../Mobile App Development.png"
+import Digital_Marketing from "../res/digital Marketing.png";
+import WebDevelopment from "../res/web development.png";
+import MobileAppDevelopment from "../res/Mobile App Development.png"
 
 function Our_Services() {
   return (
