@@ -11,6 +11,7 @@ function Home() {
     <div>
         <Welcome />
         <Welcome2 />
+        <Our_Services />
         <Contact_us />
         <Footer />
        
