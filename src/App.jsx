@@ -3,7 +3,7 @@ import { BrowserRouter as Router , Switch, Route } from 'react-router-dom/cjs/re
 import TopBar from './component/TopBar.js/TopBar';
 import Home from './component/Home/Home';
 import Navbar from './component/Navbar/Navbar';
-
+import AboutUs from './component/AboutUs/AboutUs'
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
         <Navbar />
       <Switch>
          <Route exact path="/" component={Home} />
+         <Route exact path="/AboutUs" component={AboutUs} />
       </Switch>
 
       </Router>
