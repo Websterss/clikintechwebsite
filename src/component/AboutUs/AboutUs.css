@@ -1,5 +1,5 @@
 @media only screen and (max-width: 992px) {
-  .div1 {
+  .div-ab {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -7,7 +7,7 @@
     background: #050921;
     display: flex;
   }
-  .div3 {
+  .div3-ab {
     position: absolute;
     width: 100%;
     height: 399px;
@@ -16,7 +16,7 @@
     border-radius: 50%;
     background: #cceae9;
   }
-  .heading {
+  .heading-ab {
     position: absolute;
     width: 130px;
     height: 34px;
@@ -29,7 +29,7 @@
     line-height: 34px;
     color: #ffffff;
   }
-  .text {
+  .text-ab {
     position: absolute;
     width: 291px;
     height: 48px;
@@ -42,7 +42,7 @@
     line-height: 133.52%;
     color: #ffffff;
   }
-  .btn1 {
+  .btn1-ab {
     position: absolute;
     width: 135px;
     height: 33.75px;
@@ -50,7 +50,7 @@
     top: 370px;
     border-radius: 8.88px;
   }
-  .btext {
+  .btext-ab {
     position: absolute;
     width: 71.05px;
     bottom: 200px;
@@ -65,7 +65,7 @@
     text-align: center;
     color: #050921;
   }
-  .imag {
+  .imag-ab {
     position: absolute;
     width: 185px;
     height: 134px;
@@ -75,7 +75,7 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .div1 {
+  .div-ab {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -84,7 +84,7 @@
     background: #050921;
     display: flex;
   }
-  .heading {
+  .heading-ab {
     position: absolute;
     width: 363px;
     height: 97px;
@@ -97,7 +97,7 @@
     line-height: 97px;
     color: #ffffff;
   }
-  .text {
+  .text-ab {
     position: absolute;
     width: 502px;
     height: 81px;
@@ -110,7 +110,7 @@
     line-height: 133.52%;
     color: #ffffff;
   }
-  .btn1 {
+  .btn1-ab {
     position: absolute;
     width: 206.87px;
     height: 57.28px;
@@ -118,7 +118,7 @@
     top: 608px;
     border-radius: 10px;
   }
-  .btext {
+  .btext-ab {
     position: absolute;
     left: 15%;
     top: 20.27%;
@@ -130,7 +130,7 @@
     letter-spacing: 0em;
     text-align: center;
   }
-  .imag {
+  .imag-ab {
     position: absolute;
     width: 695px;
     height: 517px;

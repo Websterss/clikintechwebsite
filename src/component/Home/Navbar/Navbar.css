@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+.navbar{
+    background-color: #050921;
+}
+
+.navbar-brand{
+    margin-left: 72px;
+}
+
+.navlogo{
+    height: 40px;
+}
+
+.nav-link{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+margin-right: 54px;
+color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.d-flex{
+    margin-right: 72px;
+}
+
+.btn{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF !important;
+border: 1.5px solid #D7D7D7 !important;
+}
+

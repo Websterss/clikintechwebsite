@@ -18,7 +18,6 @@ function App() {
          <Route exact path="/" component={Home} />
          <Route exact path="/AboutUs" component={AboutUs} />
       </Switch>
-
        <FooterBottom />
       </Router>
  
