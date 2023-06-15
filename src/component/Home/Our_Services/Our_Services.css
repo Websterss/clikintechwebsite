@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+
+.our{
+    text-align: center;
+   margin-top: 30px !important;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.our1{
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 144px !important;
+    background-color: #FFFFFF !important;
+    border: 2px solid #A9641F !important; 
+}
+
+.our2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #050921;
+border-radius: 15px;
+    color: #FFFFFF;
+    margin-right: 55px;
+    padding: 5px;
+}
+
+#card-heading{
+   
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+ 
+}
+
+#card-para{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #050921;
+border-radius: 15px;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.bookdemo{
+    margin-top: 80px;
+    border: none;
+    background-color: #070944;
+    width: 193px;
+height: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+border-radius: 15px;
+}
+
+.book-demo-butn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
