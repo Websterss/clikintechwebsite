@@ -1,26 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
-.footerbottom_div{
-height: 80px;
-background-color: #FFFFFF;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-
-.footerbottom_p{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+.footer {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    background-color: #050921;
+  }
+  
+  .footer,
+  .footer * {
+    color: white;
+  }
+  
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer-logo {
+    height: 50px;
+    width: 163px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer-title {
+    margin-top: 80px;
     font-size: 20px;
-    line-height: 24px;
-    
-    color: rgba(0, 0, 0, 0.8);
-}
-
-@media only screen and (max-width: 600px) {
-    .footerbottom_p{
-        font-size: 15px;
-    }
-}
+  }
+  
+  .top-react-icons {
+    margin-right: 19px;
+    font-size: 22px;
+    margin-top: 22px;
+    margin-bottom: 50px;
+  }
+  
+  .list-unstyled {
+    margin-top: 110px;
+    margin-left: 50px;
+    list-style: none;
+  }
+  .list-unstyled li {
+    margin-bottom: 5px;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .text-dark {
+    color: #343a40 !important;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0 !important;
+  }
+  
