@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
-import navbarimage from "../HomeImage/clikintechnavbarlogo.png";
+import navbarimage from "../../res/HomeImages/logo.png";
 import MenuIcon from '@mui/icons-material/Menu';
 
 
@@ -27,10 +27,10 @@ function Navbar() {
           <a className="nav-link" href="/">Career</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Blog</a>
+          <a className="nav-link" href="/Blog">Blog</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">About us</a>
+          <a className="nav-link" href="/AboutUs">About us</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/">Contact us</a>

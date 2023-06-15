@@ -1,10 +1,10 @@
 import React from 'react';
-import "./FooterBottom.css";
-import logo from "../HomeImage/clikintechnavbarlogo.png";
+import './Footer.css';
+import logo from '../../res/logo.png';
 import { IconContext } from 'react-icons';
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
 
-function FooterBottom() {
+function Footer() {
   const openFacebook = () => {
     window.open('https://www.facebook.com', '_blank');
   };
@@ -24,7 +24,7 @@ function FooterBottom() {
           <div className="row ">
             <div className="col-md-2">
               <img src={logo} alt="Logo" className="footer-logo mb-4" />
-              <h5 className="footer-title">We are a digital marketing agency</h5>
+              <h5 className="footer-title">We are a digital<br></br> marketing agency</h5>
               <IconContext.Provider value={{ className: 'top-react-icons' }}>
                 <FaInstagram onClick={openInstagram} />
                 <FaFacebook onClick={openFacebook} />
@@ -77,4 +77,4 @@ function FooterBottom() {
   );
 }
 
-export default FooterBottom;
+export default Footer;
