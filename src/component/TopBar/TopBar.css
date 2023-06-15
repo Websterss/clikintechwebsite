@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Lexend+Deca:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+.topbar{
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    background: #070944;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar_p{
+    color: #FFFFFF;
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+margin-top: 16px;
+}
+.topbar-button{
+    margin-left: 80px;
+    width: 169px;
+    height: 40px;
+    left: 861px;
+    top: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #070944;
+background: #CCE9FF;
+border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .topbar_p{
+        font-size: 12px;
+    }
+
+    .topbar-button{
+        margin-left: 10px;
+        width: 100px;
+        height: 30px;
+        left: 861px;
+        top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #070944;
+    background: #CCE9FF;
+    border-radius: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 280px){
+    .topbar_p{
+        font-size: 8px;
+    }
+    .topbar-button{
+        margin-left: 10px;
+        width: 80px;
+        height: 30px;
+        /* left: 861px;
+        top: 20px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #070944;
+    background: #CCE9FF;
+    border-radius: 30px;
+    }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.footerbottom_div{
+height: 80px;
+background-color: #FFFFFF;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.footerbottom_p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 600px) {
+    .footerbottom_p{
+        font-size: 15px;
+    }
+}
