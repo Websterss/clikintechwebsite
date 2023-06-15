@@ -14,7 +14,6 @@ function Home() {
         <Our_Services />
         <Blog/>
         <Contact_us />
-        <Footer />
        
     </div>
   )
