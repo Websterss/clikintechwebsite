@@ -32,7 +32,7 @@ const Blog = () => {
                     </div>
 
                      {/* box */}
-                     <div className="blog-box">
+                     <div className="blog-box blog-box2">
                         {/* img */}
                         <div className="blog-img">
                             <img src="https://picsum.photos/id/4/367/267" alt="image" />
@@ -43,7 +43,10 @@ const Blog = () => {
                         <div className="blog-text">
                             {/* <span>18 July 2023 / web design</span> */}
                             <a href="#" className="blog-title">Mastering Social Media Analytics:Measuring Success</a>
-                            <p >Learn how to effectively measure and optimise your social media marketing strategies.</p>
+                            <p >Learn how to effectively measure and optimise your social media marketing strategies.
+                            <br></br>
+                            <br></br>
+                            </p>
                             <a href="#" className="btn1">Explore more {">"}</a>
                         </div>
                     </div>

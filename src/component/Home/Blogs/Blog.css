@@ -3,6 +3,10 @@ a{
 }
 
 /* Blog */
+.blog-box2{
+    height: 435.4px;
+
+}
 
 #blog{
     display: flex;

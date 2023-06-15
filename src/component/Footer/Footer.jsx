@@ -18,7 +18,7 @@ function Footer() {
     window.open('https://www.github.com', '_blank');
   };
   return (
-    <div>
+    <div className='div-footer'>
       <footer className="footer">
         <div className="container">
           <div className="row ">

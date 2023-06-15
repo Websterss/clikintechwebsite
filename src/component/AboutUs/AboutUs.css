@@ -76,9 +76,9 @@
 
 @media only screen and (min-width: 992px) {
   .div-ab {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    height: 100%;
+    height: 1024px;
     left: 0px;
     top: 0px;
     background: #050921;
@@ -137,4 +137,147 @@
     left: 667px;
     top: 298px;
   }
+  .heading1-ab {
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    left: calc(50% - 233px / 2 - 0.5px);
+    top: 1220px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .hr-ab {
+    position: absolute;
+    border: 2px solid #a9641f;
+    width: 153px;
+    height: 0px;
+    left: 35px;
+  }
+
+  .text1-ab {
+    position: absolute;
+    width: 604px;
+    height: 606px;
+    left: auto;
+    top: 1330px;
+    right: 92px;
+    bottom: 1939px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 133.52%;
+    /* or 29px */
+
+    color: #000000;
+  }
+  .imag2-ab {
+    position: absolute;
+    height: 474px;
+    width: 539.7796020507812px;
+    left: 137px;
+    top: 1300px;
+    border-radius: 0px;
+  }
+  .heading2-ab {
+    position: absolute;
+    width: 294px;
+    height: 61px;
+    left: calc(50% - 289px / 2 - 300.5px);
+    top: 1991px;
+    right: 888px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .hr2-ab {
+    position: absolute;
+    width: 153px;
+    height: 0px;
+    left: 65px;
+    right:956px;
+    border: 2px solid #a9641f;
+  }
+  .text2-ab {
+    position: absolute;
+    width: 672px;
+    height: 353px;
+    left: 72px;
+    top: 2105px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 133.52%;
+    /* or 29px */
+
+    color: #000000;
+  }
+.imag3-ab{
+position:absolute;  
+height: 428px;
+width: 494px;
+left: 819px;
+top: 2011px;
+border-radius: 0px;
+
+}
+.heading3-ab{
+  position: absolute;
+width: 294px;
+height: 61px;
+left: calc(50% - 252px/2 + 270px);
+top: 2607px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.hr3-ab{
+position: absolute;
+width: 153px;
+height: 0px;
+left: 55px;
+border: 2px solid #A9641F;
+right:913px;
+}
+.text3-ab{
+position: absolute;
+width: 716px;
+height: 308px;
+left: 682px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 133.52%;
+top: 2723px;
+right: 92px;
+color: #000000;
+}
+.imag4-ab{
+position: absolute;
+width: 412px;
+height: 412px;
+left: 114px;
+top: 2607px;
+}
+
 }

@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: column;
   background-color: #050921;
+  font-family:'Inter';
+}
+
+.div-footer{
+  bottom: 0px;
+  width: 100%;
+  position:absolute;
+  top: 3133px;
 }
 
 .footer,
@@ -51,6 +59,7 @@ body,
 
 .text-center {
   text-align: center !important;
+  font-family: 'Inter';
 }
 
 .text-dark {
