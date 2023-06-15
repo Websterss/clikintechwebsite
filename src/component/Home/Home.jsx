@@ -1,10 +1,9 @@
 import React from 'react'
-import Welcome from './Welcome'
-import Welcome2 from './Welcome2'
-import Footer from './Footer'
-import Blog from './Blog'
-import Contact_us from './Contact_us'
-import Our_Services from './Our_Services/Our_Services'
+import Welcome from './Welcome/Welcome'
+import Welcome2 from './Welcome/Welcome2'
+import Blog from './Blogs/Blog'
+import Contact_us from './Contact/Contact_us'
+import Our_Services from './Services/Our_Services'
 
 function Home() {
   return (
