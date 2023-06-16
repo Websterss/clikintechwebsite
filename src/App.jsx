@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router , Switch, Route } from 'react-router-dom/cjs/react-router-dom'; 
+import { Switch, Route } from 'react-router-dom/cjs/react-router-dom.min';
 import TopBar from './component/TopBar/TopBar';
 import Home from './component/Home/Home';
 import Navbar from './component/Navbar/Navbar';
@@ -11,16 +11,15 @@ import AboutUs from './component/AboutUs/AboutUs';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <TopBar />
+
+      <TopBar />
         <Navbar />
       <Switch>
-         <Route exact path="/" component={Home} />
-         <Route exact path="/AboutUs" component={AboutUs} />
+         <Route exact   path="/" component={Home}/>
+         <Route exact path="/AboutUs" component={AboutUs}/>
       </Switch>
-
        <FooterBottom />
-      </Router>
+
  
     </div>
   );
