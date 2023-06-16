@@ -1,0 +1,134 @@
+.career-container{
+    width: 100vw;
+    background: #050921;
+}
+
+h4.head-lg{
+    color: rgb(206, 226, 244);
+    padding-top: 5rem;
+}
+
+
+h3.heading-lg {
+    font-weight: 500;
+    font-size: 58px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+  }
+
+.career-btn{
+    width: 150px;
+    height: 50px;
+    left: 1175px;
+    top: 60px;
+    background-color: #050921 ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    border: 1.5px solid #D7D7D7;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-right: 10px;
+
+    
+}
+
+.career-career-btn{
+    padding-top: 2rem;
+}
+
+.page_container{
+    width: 100vw;
+    background: #ffffff;
+}
+
+
+
+.blocks {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.blocks_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+   
+}
+
+div .blocks_block{
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.blocks_block span {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    padding: 0.8rem;
+    place-items: center;
+    padding-bottom: 2rem;
+}
+
+.blocks_block small{
+    margin-top: 1rem;
+    display: block;
+    font-weight: 300;
+}
+
+.form-btn{
+    width: 605px;
+    height: 50px;
+    left: 1175px;
+    top: 60px;
+    background-color: #050921 ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    border: 1.5px solid #D7D7D7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.form-form-btn{
+    padding-top: 2rem;
+}
+
+.form_container{
+    width: 100vw;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+}
+
+.form_gender  {
+    width: 605px;
+}
+
+.career_img{
+    width: 65vw;
+    align-items: center;
+    margin-left: 15rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.img_1{
+    width: 521.87px;
+    height: 412px;
+}
+
+.form-heading{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-weight: 600;
+}
