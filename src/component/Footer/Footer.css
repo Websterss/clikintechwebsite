@@ -4,13 +4,10 @@
   flex-direction: column;
   background-color: #050921;
   font-family:'Inter';
-}
-
-.div-footer{
   bottom: 0px;
   width: 100%;
-  top: 3133px;
 }
+
 
 .footer,
 .footer * {

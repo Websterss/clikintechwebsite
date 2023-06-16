@@ -1,9 +1,8 @@
-
 .container-max-width {
   background: #F4F6FA;
   padding-top: 20px;
   padding-bottom: 40px;
-  
+  font-family: 'Inter';
 }
 
 .my-card {

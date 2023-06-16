@@ -1,6 +1,6 @@
 @media only screen and (max-width: 992px) {
   .div-ab {
-    position: absolute;
+  position: absolute;
     width: 100%;
     height: 80%;
     top: 0px;
@@ -8,7 +8,7 @@
     display: flex;
   }
   .div3-ab {
-    position: absolute;
+  position: absolute;
     width: 100%;
     height: 399px;
     left: 0px;
@@ -17,7 +17,7 @@
     background: #cceae9;
   }
   .heading-ab {
-    position: absolute;
+  position: absolute;
     width: 130px;
     height: 34px;
     left: 24px;
@@ -30,7 +30,7 @@
     color: #ffffff;
   }
   .text-ab {
-    position: absolute;
+  position: absolute;
     width: 291px;
     height: 48px;
     left: 25px;
@@ -74,7 +74,7 @@
   }
 
   .heading1-ab {
-    position: absolute;
+  position: absolute;
 width: 95px;
 height: 24px;
 left: calc(50% - 95px/2 + 0.5px);
@@ -90,7 +90,7 @@ text-align: center;
 color: #000000;
   }
   .hr-ab {
-    position: absolute;
+  position: absolute;
 width: 74px;
 height: 0px;
 left: calc(50% - 74px/2);
@@ -100,7 +100,7 @@ border: 1.5px solid #E7CCB1;
   }
 
   .text1-ab {
-    position: absolute;
+  position: absolute;
 width: 310px;
 height: 306px;
 left: calc(50% - 310px/2);
@@ -119,7 +119,7 @@ color: #000000;
 
   }
   .imag2-ab {
-    position: absolute;
+  position: absolute;
     width: 220px;
     height: 193.19px;
     left: 250px;
@@ -127,7 +127,7 @@ color: #000000;
     
   }
   .heading2-ab {
-    position: absolute;
+  position: absolute;
     width: 118px;
     height: 24px;
     left: calc(50% - 118px/2);
@@ -144,7 +144,7 @@ color: #000000;
     
   }
   .hr2-ab {
-    position: absolute;
+  position: absolute;
 width: 74px;
 height: 0px;
 left: calc(50% - 74px/2);
@@ -153,7 +153,7 @@ top: 12px;
 border: 1.5px solid #E7CCB1;
   }
   .text2-ab {
-  position: absolute;
+position: absolute;
 width: 300px;
 height: 306px;
 left: calc(50% - 300px/2);
@@ -172,7 +172,7 @@ color: #000000;
 
   }
 .imag3-ab{
-  position: absolute;
+position: absolute;
   width: 222.76px;
   height: 193px;
   left: calc(50% - 222.76px/2 + 0.38px);
@@ -181,7 +181,7 @@ color: #000000;
 
 }
 .heading3-ab{
-  position: absolute;
+position: absolute;
   width: 103px;
   height: 24px;
   left: calc(50% - 103px/2 + 0.5px);
@@ -208,7 +208,7 @@ top: 12px;
 border: 1.5px solid #E7CCB1;
 }
 .text3-ab{
-  position: absolute;
+position: absolute;
   width: 300px;
   height: 171px;
   left: calc(50% - 300px/2);
@@ -227,7 +227,7 @@ border: 1.5px solid #E7CCB1;
   
 }
 .imag4-ab{
-  position: absolute;
+position: absolute;
   width: 220px;
   height: 193px;
   left: calc(50% - 220px/2);
@@ -322,7 +322,17 @@ border: 1.5px solid #E7CCB1;
     height: 0px;
     left: 35px;
   }
-
+  .div4-ab{
+    display: flex;
+  }
+  .div5-ab{
+    display: flex;
+  }
+  .div6-ab{
+    display: flex;
+    height: 100%;
+    padding-bottom: 1800px;
+  }
   .text1-ab {
     position: absolute;
     width: 604px;
@@ -365,7 +375,7 @@ border: 1.5px solid #E7CCB1;
     color: #000000;
   }
   .hr2-ab {
-    position: absolute;
+  position: absolute;
     width: 153px;
     height: 0px;
     left: 65px;
@@ -373,7 +383,7 @@ border: 1.5px solid #E7CCB1;
     border: 2px solid #a9641f;
   }
   .text2-ab {
-    position: absolute;
+  position: absolute;
     width: 672px;
     height: 353px;
     left: 72px;
@@ -398,7 +408,7 @@ border-radius: 0px;
 
 }
 .heading3-ab{
-  position: absolute;
+position: absolute;
 width: 294px;
 height: 61px;
 left: calc(50% - 252px/2 + 270px);
