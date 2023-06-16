@@ -102,18 +102,18 @@ const ViewBlogs = () => {
           <div className="col text-center">
             {currentPage > 1 && (
               <button
-                className="btn btn-dark me-2"
+                className="btn btn-dark me-2 prev"
                 onClick={handlePreviousClick}
               >
-                <i className="fas fa-arrow-left"></i><span>Previous
+                <i className="fas fa-arrow-left left"></i><span>Previous
                 </span></button>
             )}
             {indexOfLastCard < cardData.length && (
               <button
-                className="btn btn-dark"
+                className="btn btn-dark nxt"
                 onClick={handleNextClick}
               >
-                <span>Next</span><i className="fas fa-arrow-right"></i>
+                <span>Next</span><i className="fas fa-arrow-right right"></i>
               </button>
             )}
           </div>
