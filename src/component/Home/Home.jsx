@@ -8,15 +8,7 @@ import Tech from './technologies/tech'
 
 function Home() {
   return (
-    <div>
-        <Welcome />
-        <Welcome2 />
-        <Our_Services />
-        <Tech/>
-        <Blog/>
-        <Contact_us />
-       
-    </div>
+    <div>Home</div>
   )
 }
 

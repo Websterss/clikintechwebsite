@@ -1,14 +1,14 @@
 @media only screen and (max-width: 992px) {
-  .div-ab {
-  position: absolute;
+  .div1 {
+    position: absolute;
     width: 100%;
     height: 80%;
     top: 0px;
     background: #050921;
     display: flex;
   }
-  .div3-ab {
-  position: absolute;
+  .div3 {
+    position: absolute;
     width: 100%;
     height: 399px;
     left: 0px;
@@ -16,8 +16,8 @@
     border-radius: 50%;
     background: #cceae9;
   }
-  .heading-ab {
-  position: absolute;
+  .heading {
+    position: absolute;
     width: 130px;
     height: 34px;
     left: 24px;
@@ -29,8 +29,8 @@
     line-height: 34px;
     color: #ffffff;
   }
-  .text-ab {
-  position: absolute;
+  .text {
+    position: absolute;
     width: 291px;
     height: 48px;
     left: 25px;
@@ -42,7 +42,7 @@
     line-height: 133.52%;
     color: #ffffff;
   }
-  .btn1-ab {
+  .btn1 {
     position: absolute;
     width: 135px;
     height: 33.75px;
@@ -50,7 +50,7 @@
     top: 370px;
     border-radius: 8.88px;
   }
-  .btext-ab {
+  .btext {
     position: absolute;
     width: 71.05px;
     bottom: 200px;
@@ -65,7 +65,7 @@
     text-align: center;
     color: #050921;
   }
-  .imag-ab {
+  .imag {
     position: absolute;
     width: 185px;
     height: 134px;
@@ -122,7 +122,7 @@ color: #000000;
   position: absolute;
     width: 220px;
     height: 193.19px;
-    left: 250px;
+    left: calc(50% - 220px/2);
     top: 774px;
     
   }
@@ -234,14 +234,24 @@ position: absolute;
   top: 2350px;
   
 }
-
+.div4-ab{
+  display: flex;
+}
+.div5-ab{
+  display: flex;
+}
+.div6-ab{
+  display: flex;
+  height: 100%;
+  padding-bottom: 2500px;
+}
 
 
 }
 
 @media only screen and (min-width: 992px) {
-  .div-ab {
-    /* position: absolute; */
+  .div1 {
+    position: absolute;
     width: 100%;
     height: 1024px;
     left: 0px;
@@ -249,7 +259,7 @@ position: absolute;
     background: #050921;
     display: flex;
   }
-  .heading-ab {
+  .heading {
     position: absolute;
     width: 363px;
     height: 97px;
@@ -262,7 +272,7 @@ position: absolute;
     line-height: 97px;
     color: #ffffff;
   }
-  .text-ab {
+  .text {
     position: absolute;
     width: 502px;
     height: 81px;
@@ -275,7 +285,7 @@ position: absolute;
     line-height: 133.52%;
     color: #ffffff;
   }
-  .btn1-ab {
+  .btn1 {
     position: absolute;
     width: 206.87px;
     height: 57.28px;
@@ -283,7 +293,7 @@ position: absolute;
     top: 608px;
     border-radius: 10px;
   }
-  .btext-ab {
+  .btext {
     position: absolute;
     left: 15%;
     top: 20.27%;
@@ -295,7 +305,7 @@ position: absolute;
     letter-spacing: 0em;
     text-align: center;
   }
-  .imag-ab {
+  .imag {
     position: absolute;
     width: 695px;
     height: 517px;
