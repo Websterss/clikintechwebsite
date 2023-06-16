@@ -251,7 +251,6 @@ position: absolute;
 
 @media only screen and (min-width: 992px) {
   .div-ab {
-    /* position: absolute; */
     width: 100%;
     height: 1024px;
     left: 0px;
