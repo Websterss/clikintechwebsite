@@ -1,6 +1,7 @@
 .app-container {
   background: #050921;
   font-family:'Inter';
+  margin-left: -200px;
 }
 
 .container-lg {
@@ -23,7 +24,8 @@
   font-weight: 600;
   font-size: 64px;
   margin-bottom: 20px;
-  margin-top: 70px;
+  margin-top: 70px !important;
+  margin-left: -10px !important;
   color: white;
 }
 
@@ -58,22 +60,23 @@
   margin-right: 5px;
 }
 
-.btn-primary {
+.btn-success {
   background-color: #4356C8 !important;
   height: 50px;
   width: 154px;
   border: none !important;
 }
-.btn-primary span{
+.btn-success span{
   font-weight: 600;
   font-size: 20px;
 }
-.btn-primary:hover {
+.btn-success:hover {
   background-color: #ff4081 !important;
 }
-.img-fluid{
+.imgg-fluid{
   width: 521.87px;
   height: 412px;
+  margin-top: -50px;
 }
 .container-sm .present-image {
   width: 100%;

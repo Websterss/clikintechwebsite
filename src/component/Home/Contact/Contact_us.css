@@ -1,6 +1,8 @@
 /* Contact_us.css */
 
 /* Increase distance between form fields */
+
+
 .form-group .form-control {
     margin-bottom: 20px;
     background-color: rgb(241, 237, 237);
@@ -60,24 +62,29 @@
     line-height: 24px;
   }
   
-  .image-text .icon1 {
+  .icon1 {
     /* gap: 10rem; */
     width: 28px;
     height: 28px;
     left: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
   }
   
-  .image-text .icon2 {
+  .icon2 {
     /* gap: 10rem; */
     width: 24px;
     height: 24px;
     left: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
   }
   
-  .image-text .icon3 {
+  .icon3 {
     /* gap: 10rem; */
     width: 24px;
     height: 24px;
     left: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
   }
-  
