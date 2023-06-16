@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import "./Contact_us.css";
-import image from '../../../res/HomeImages/contact.png';
+import "./ContactUs.css";
+import image from '../../res/HomeImages/contact.png';
 import { IoMdMail } from 'react-icons/io';
 import { TiLocation } from "react-icons/ti";
 import { ImPhone } from "react-icons/im";

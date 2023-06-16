@@ -1,0 +1,47 @@
+.custom-container {
+  display: flex;
+}
+
+.custom-heading {
+  background-color: #050921;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  height: calc(50bh -0.1px);
+  padding: 3rem 1.5rem;
+}
+
+.custom-heading h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 580;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+.custom-heading h6 {
+  margin-bottom: 1.5rem;
+  width: 105px;
+  height: 29px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 90px;
+}
+
+.custom-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #050921;
+}
+
+.custom-image img {
+  max-width: 85%;
+  max-height: 75%;
+}

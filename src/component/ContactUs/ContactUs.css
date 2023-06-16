@@ -36,22 +36,22 @@
   
   /* Change button color and set width equal to form fields */
   .btn-primary {
-    background-color: rgb(7, 7, 46) !important;
-    width: 100%;
+  background-color: #050921;
+  width: 106%;
   }
   
   /* Shift the image upwards and resize it */
   .img-container {
     margin-top: -170px;
     margin-left: 200px;
-    width: 391px;
-    height: auto; 
+    width: 390px;
+    height: auto;
     left: 352px;
     top: 480px;
   }
   
   .image-text {
-    margin: 8px !important;
+    margin: 8px;
     padding: 8px;
     font-family: "Inter";
     font-style: normal;
