@@ -20,7 +20,7 @@ function Career(){
                           <h3 className="heading-lg">Work with Clikin Tech</h3>
                           <div className="search-bar-lg">
                           <input type="text" className="form-control rounded-0" placeholder="Search Career" />
-                          <button className="btn btn-primary rounded-0"><span>Search</span></button>
+                          <button className="btn btn-success rounded-0"><span>Search</span></button>
                           </div>
                         
                           <div className="career-career-btn">

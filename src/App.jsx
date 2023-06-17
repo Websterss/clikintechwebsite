@@ -7,6 +7,7 @@ import FooterBottom from './component/Footer/Footer';
 import AboutUs from './component/AboutUs/AboutUs';
 import Blog from './component/Blog/Blog';
 import ContactUs from './component/ContactUs/ContactUsmain';
+import Career from './component/Career/Career';
 
 
 
@@ -21,6 +22,7 @@ function App() {
          <Route exact path="/AboutUs" component={AboutUs} />
          <Route exact path="/Blog" component={Blog} />
          <Route exact path="/ContactUs" component={ContactUs} />
+         <Route exact path="/Career" component={Career} />
       </Switch>
        <FooterBottom />
       </Router>

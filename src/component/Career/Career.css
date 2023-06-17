@@ -42,6 +42,13 @@ h3.heading-lg {
     padding-top: 2rem;
 }
 
+.img_1{
+    width: 521.87px;
+    height: 412px;
+}
+
+
+
 .page_container{
     width: 100vw;
     background: #ffffff;
@@ -122,10 +129,6 @@ div .blocks_block{
     margin-bottom: 3rem;
 }
 
-.img_1{
-    width: 521.87px;
-    height: 412px;
-}
 
 .form-heading{
     margin-left: 4rem;

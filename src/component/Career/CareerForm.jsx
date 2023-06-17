@@ -10,26 +10,26 @@ function CareerForm() {
     <Form className='form_container'>
       <Row className='form_row'>
         <Col>
-          <Form.Control placeholder="Enter First name*" />
+          <Form.Control placeholder="Enter First name*" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
         <Col>
-          <Form.Control placeholder="Enter Last name*" />
+          <Form.Control placeholder="Enter Last name*" style={{ backgroundColor: '#F1EDED'}}/>
         </Col>
       </Row>
      <br />
       <Row>
         <Col>
-          <Form.Control placeholder="Enter email address*" />
+          <Form.Control placeholder="Enter email address*" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
         <Col>
-          <Form.Control placeholder="Enter Phone no.*" />
+          <Form.Control placeholder="Enter Phone no.*" style={{ backgroundColor: '#F1EDED'}}/>
         </Col>
       </Row>
       <br />
       <Row className='form_forms2'>
         <Col>
         <Form.Group as={Col} className='form_gender'>
-        <Form.Select defaultValue="Gender*">
+        <Form.Select defaultValue="Gender*"style={{ backgroundColor: '#F1EDED'}} >
             <option>Gender*</option>
             <option>Male</option>
             <option>Female</option>
@@ -40,7 +40,7 @@ function CareerForm() {
         <Col>
 
         <Form.Group as={Col} className='form_gender'>
-        <Form.Select defaultValue="Country*">
+        <Form.Select defaultValue="Country*"style={{ backgroundColor: '#F1EDED'}}>
         <option>Country*</option>
             <option>India</option>
             <option>.....</option>
@@ -51,10 +51,10 @@ function CareerForm() {
       <br />
       <Row>
         <Col>
-          <Form.Control as="textarea" placeholder="Message" rows={6} />
+          <Form.Control as="textarea" placeholder="Message" rows={6} style={{ backgroundColor: '#F1EDED'}} />
         </Col>
         <Col>
-          <Form.Control placeholder="Upload Your CV here*" />
+          <Form.Control placeholder="Upload Your CV here*" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
       </Row>
       <Row>
