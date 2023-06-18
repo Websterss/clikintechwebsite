@@ -13,15 +13,15 @@ function Our_Service_body() {
             <div className="choose-us-container flex">
                 <div className="choose-us-left">
                     <ol>
-                        <li>
+                        <li className="item">
                             <h3>Provide solutions that delivers</h3>
                             <p>No more click baits or empty promises! We offer practical solutions that genuinely work and align with your business objectives.</p>
                         </li>
-                        <li>
+                        <li className="item">
                             <h3>Complacency is not in our vocabulary</h3>
                             <p>We are not passive bystanders to the latest insights. We continually seek to enhance our approach and adapt our strategies to seamlessly integrate into every business we come across.</p>
                         </li>
-                        <li>
+                        <li className="item">
                             <h3>Responsibility and excellence are in the cards</h3>
                             <p>We are more than just a team of experts; we also embrace a strong sense of responsibility and accountability when facing challenges.</p>
                         </li>

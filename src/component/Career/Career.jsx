@@ -3,8 +3,8 @@ import './Career.css'
 import { Row, Container, Col } from "react-bootstrap"
 import CareerPage from "./CareerPage"
 import CareerForm from "./CareerForm"
-import Image from '../../res/Picture2.png'
-import Image1 from '../../res/Picture3.png'
+import Image from '../../res/CareerImages/Picture2.png'
+import Image1 from '../../res/CareerImages/Picture3.png'
 
 
 

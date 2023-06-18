@@ -8,6 +8,7 @@ import AboutUs from './component/AboutUs/AboutUs';
 import Blog from './component/Blog/Blog';
 import ContactUs from './component/ContactUs/ContactUsmain';
 import Career from './component/Career/Career';
+import Services from './component/Our_Service/Our_Service';
 
 
 
@@ -23,6 +24,7 @@ function App() {
          <Route exact path="/Blog" component={Blog} />
          <Route exact path="/ContactUs" component={ContactUs} />
          <Route exact path="/Career" component={Career} />
+         <Route exact path="/Services" component={Services} />
       </Switch>
        <FooterBottom />
       </Router>
