@@ -50,11 +50,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #050921;
+    background: white;
 border-radius: 15px;
-    color: #FFFFFF;
+    color: #050921;
     margin-right: 55px;
     padding: 5px;
+    border: 0px
 }
 
 #card-heading{
@@ -64,10 +65,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 29px;
-/* identical to box height */
-
-
-color: #FFFFFF;
+color: #050921;
  
 }
 
@@ -78,8 +76,7 @@ color: #FFFFFF;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    
-    color: #FFFFFF;
+    color: #050921;
 }
 
 #card2{
@@ -88,10 +85,11 @@ color: #FFFFFF;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #050921;
+    background: white;
 border-radius: 15px;
-    color: #FFFFFF;
+    color: #050921;
     padding: 5px;
+    border: 0px
 }
 
 .bookdemo{

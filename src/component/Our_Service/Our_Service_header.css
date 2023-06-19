@@ -1,0 +1,75 @@
+.header-container {
+    height: 400px;
+    background-color: #050921;
+    color: white;
+    width: 100%;
+    padding: 0 30px 30px 0;
+}
+
+.header-left h1 {
+    font-size: 3rem;
+}
+
+.header-left p {
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.primary-button {
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #050921;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px #050921;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    background-color: #3797b4;
+    color: white;
+}
+
+.secondary-button {
+    border: 0.5px solid white;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    margin: 25px;
+}
+
+.header-icon {
+    font-size: 30px;
+}
+
+.secondary-button:hover {
+    color: #3797b4;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 200px;
+}
+
+.header-left {
+    max-width: 40vw;
+}
+
+.header-left h1 {
+    margin-top: 20px;
+}
+
+.header-right img {
+    width: 400px;
+}

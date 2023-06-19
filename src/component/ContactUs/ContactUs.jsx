@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import "./Contact_us.css";
-import image from '../../../res/HomeImages/contact.png';
+import "./ContactUs.css";
+import image from '../../res/HomeImages/contact.png';
 import { IoMdMail } from 'react-icons/io';
 import { TiLocation } from "react-icons/ti";
 import { ImPhone } from "react-icons/im";
@@ -115,7 +115,7 @@ const Contact_us = () => {
               </div>
               <div className="col-md-6 img-container">
                 <img src={image} alt="Contact" className="img-fluid" />
-                <div className="image-text" ><TiLocation className="icon1"/>
+                <div className="image-text"><TiLocation className="icon1"/>
                   Barrackpore, Kolkata,<br></br>West Bengal- 700 122
                 </div>
                 <div className="image-text"><ImPhone className="icon2"/>+91 7278817473</div>

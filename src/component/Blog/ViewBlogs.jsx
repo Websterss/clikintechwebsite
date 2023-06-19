@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import image from '../../res/blogimages/blog.png';
 import likeimage from '../../res/blogimages/like.png';
 import shareimage from '../../res/blogimages/share.png';
-import explore from '../../res/blogimages/explore.png';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import './ViewBlogs.css';

@@ -14,11 +14,11 @@ function BlogSearch() {
               <h1 className="heading-lg">Read Top Articles</h1>
               <div className="search-bar-lg">
                 <input type="text" className="form-control rounded-0" placeholder="Search Articles" />
-                <button className="btn btn-primary rounded-0"><span>Search</span></button>
+                <button className="btn btn-success rounded-0"><span>Search</span></button>
               </div>
             </Col>
             <Col md={4}>
-              <img src={image} alt="Image" className="img-fluid" />
+              <img src={image} alt="Image" className="imgg-fluid" />
             </Col>
           </Row>
         </Container>

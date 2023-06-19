@@ -1,8 +1,6 @@
 /* Contact_us.css */
 
 /* Increase distance between form fields */
-
-
 .form-group .form-control {
     margin-bottom: 20px;
     background-color: rgb(241, 237, 237);
@@ -12,6 +10,7 @@
   
   .container {
     padding: 80px;
+    font-family: 'Inter';
   }
   
   .container h1 {
@@ -38,22 +37,22 @@
   
   /* Change button color and set width equal to form fields */
   .btn-primary {
-    background-color: rgb(7, 7, 46) !important;
-    width: 100%;
+  background-color: #050921;
+  width: 106%;
   }
   
   /* Shift the image upwards and resize it */
   .img-container {
     margin-top: -170px;
     margin-left: 200px;
-    width: 391px;
-    height: auto; 
+    width: 390px;
+    height: auto;
     left: 352px;
     top: 480px;
   }
   
   .image-text {
-    margin: 8px !important;
+    margin: 8px;
     padding: 8px;
     font-family: "Inter";
     font-style: normal;
@@ -62,29 +61,24 @@
     line-height: 24px;
   }
   
-  .icon1 {
+  .image-text .icon1 {
     /* gap: 10rem; */
     width: 28px;
     height: 28px;
     left: 50px;
-    margin-right: 10px;
-    margin-left: 20px;
   }
   
-  .icon2 {
+  .image-text .icon2 {
     /* gap: 10rem; */
     width: 24px;
     height: 24px;
     left: 50px;
-    margin-right: 10px;
-    margin-left: 30px;
   }
   
-  .icon3 {
+  .image-text .icon3 {
     /* gap: 10rem; */
     width: 24px;
     height: 24px;
     left: 50px;
-    margin-right: 10px;
-    margin-left: 30px;
   }
+  

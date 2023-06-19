@@ -21,10 +21,10 @@ function Navbar() {
           <a className="nav-link"  href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Service</a>
+          <a className="nav-link" href="/Services">Service</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Career</a>
+          <a className="nav-link" href="/Career">Career</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/Blog">Blog</a>
@@ -33,7 +33,7 @@ function Navbar() {
           <a className="nav-link" href="/AboutUs">About us</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Contact us</a>
+          <a className="nav-link" href="/ContactUs">Contact us</a>
         </li>
       </ul>
       <form className="d-flex ms-auto">
