@@ -20,7 +20,7 @@ function App() {
          <Route exact path="/AboutUs" component={AboutUs} />
       </Switch>
        <FooterBottom />
-
+ 
  
     </div>
   );
