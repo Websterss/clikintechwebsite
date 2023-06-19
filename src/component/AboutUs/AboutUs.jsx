@@ -15,7 +15,9 @@ function AboutUs() {
          <p class="text-ab">Clikin Tech is a Digital Marketing Agency 
          that help businesses grow while establishing credibility with clients.
          </p>
+         <a href="/ContactUs">
          <button class="btn1-ab"><p class="btext-ab">Get Started</p></button>
+         </a>
       </div>
       <img src={image} alt="imagehere" class="imag-ab"/>   
     </div>

@@ -23,7 +23,9 @@ function Welcome(){
     solutions that helps your business scale digitally 
     in the competitive markets.
     </p>
+    <a href="/ContactUs">
     <button class="btnc">Get Started</button>
+    </a>
     </div>
     </div> 
     );
