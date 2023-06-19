@@ -27,7 +27,7 @@ function App() {
          <Route exact path="/Services" component={Services} />
       </Switch>
        <FooterBottom />
-
+  </Router>
  
     </div>
   );
