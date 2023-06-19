@@ -1,5 +1,5 @@
 import { blocks } from "./CareerBlocks"
-
+import './CareerPage.css'
 
 function CareerPage(){
     return(

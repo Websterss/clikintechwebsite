@@ -3,6 +3,7 @@
     text-align: center;
     margin-bottom: 60px;
     padding: 0 200px 0 200px;
+    font-family: 'Inter';
 }
 
 .choose-us-header h1 {
@@ -59,4 +60,8 @@
     justify-content: center;
     gap: 150px;
     margin-bottom: 80px;
+}
+
+.choose-us-body{
+    font-family: 'Inter';
 }

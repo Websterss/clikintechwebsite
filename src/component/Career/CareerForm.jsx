@@ -1,11 +1,11 @@
 import Col from 'react-bootstrap/Col'
 import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
+import './CareerForm.css'
 
 function CareerForm() {
   return (
-    <div>
-
+    <div class="career-form">
     <h1 className='form-heading'>Apply now</h1>
     <Form className='form_container'>
       <Row className='form_row'>
