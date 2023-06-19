@@ -38,10 +38,18 @@ body,
 }
 
 .top-react-icons {
-  margin-right: 19px;
   font-size: 22px;
   margin-top: 22px;
   margin-bottom: 50px;
+}
+.top-react-icons1{
+  margin-right: 19px;
+}
+.top-react-icons2{
+  margin-right: 19px;
+}
+.top-react-icons3{
+  margin-right: 19px;
 }
 
 .list-unstyled {
@@ -79,30 +87,32 @@ body,
 @media (max-width: 768px) {
   .footer {
     font-size: 17px;
+    padding-left: 50px;
   }
   
   .footer-logo {
     margin-top: 30px;
     height: 40px;
     width: 130px;
-    margin-left: -50px;
+    margin-left: -110px;
   }
   
   .footer-title {
     margin-top: 10px;
     font-size: 23px;
-    margin-left: -50px;
+    margin-left: -110px;
   }
   
   .top-react-icons {
     font-size: 28px;
     margin-top: 18px;
     margin-bottom: 40px;
-    margin-right: 28px;
   }
-  
+  .top-react-icons1{
+    margin-left: -110px;
+  }
   .list-unstyled {
     margin-top: 10px;
-    margin-left: -50px;
+    margin-left: -110px;
   }
 }

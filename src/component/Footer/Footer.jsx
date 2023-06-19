@@ -20,35 +20,44 @@ function Footer() {
   return (
     <div className='div-footer'>
       <footer className="footer">
-        <div className="container">
+        <div className="container ff">
           <div className="row ">
             <div className="col-md-2">
               <img src={logo} alt="Logo" className="footer-logo mb-4" />
               <h5 className="footer-title">We are a digital<br></br> marketing agency</h5>
               <IconContext.Provider value={{ className: 'top-react-icons' }}>
-                <FaInstagram onClick={openInstagram} />
-                <FaFacebook onClick={openFacebook} />
-                <FaTwitter onClick={opentwitter} />
-                <FaGithub onClick={opengithub} />
-              </IconContext.Provider>
+              <span className="top-react-icons1" onClick={openInstagram}>
+                <FaInstagram />
+              </span>
+              <span className="top-react-icons2" onClick={openFacebook}>
+                <FaFacebook />
+              </span>
+              <span className="top-react-icons3" onClick={opentwitter}>
+                <FaTwitter />
+              </span>
+              <span className="top-react-icons4" onClick={opengithub}>
+                <FaGithub />
+              </span>
+            </IconContext.Provider>
+
             </div>
             <div className="col-md-3">
               
               <ul className="list-unstyled">
                 <li><h5><strong>Services</strong></h5></li>
-                <li><a href="/">Digital marketing</a></li>
-                <li><a href="/">Web development</a></li>
-                <li><a href="/">Mobile App Development</a></li>
+                <li><a href="/Services">Digital marketing</a></li>
+                <li><a href="/Services">Web development</a></li>
+                <li><a href="/Services">Mobile App Development</a></li>
               </ul>
             </div>
             <div className="col-md-2">
               
               <ul className="list-unstyled">
                 <li><h5><strong>Home</strong></h5></li>
-                <li><a href="/">Career</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Services</a></li>
-                <li><a href="/">Contact Us</a></li>
+                <li><a href="/Career">Career</a></li>
+                <li><a href="/AboutUs">About</a></li>
+                <li><a href="/Services">Services</a></li>
+                <li><a href="/ContactUs">Contact Us</a></li>
               </ul>
             </div>
             <div className="col-md-3">

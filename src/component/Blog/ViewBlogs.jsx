@@ -68,6 +68,15 @@ const ViewBlogs = () => {
   const indexOfFirstCard = indexOfLastCard - cardsPerPage;
   const currentCards = cardData.slice(indexOfFirstCard, indexOfLastCard);
 
+
+  // Function to handle page number click
+  const handlePageClick = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  // Generate page numbers based on total cards and cards per page
+  const pageNumbers = Math.ceil(cardData.length / cardsPerPage);
+
   // Function to handle "Next" button click
   const handleNextClick = () => {
     setCurrentPage(currentPage + 1);
@@ -79,9 +88,9 @@ const ViewBlogs = () => {
 
   return (
     <div className="container-fluid container-max-width">
-      <div className="row ">
+      <div className="row">
         {currentCards.map((card) => (
-          <div className="col-md-4 d-flex justify-content-center" key={card.id}>
+          <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" key={card.id}>
             <div className="my-card">
               <img src={card.image} className="my-card-image" alt="Card" />
               <div className="my-card-body">
@@ -107,6 +116,17 @@ const ViewBlogs = () => {
                 <i className="fas fa-arrow-left left"></i><span>Previous
                 </span></button>
             )}
+            <div className="pagination">
+              {Array.from({ length: pageNumbers }, (_, index) => (
+                <button
+                  key={index}
+                  className={`btn btn-dark ${currentPage === index + 1 ? 'active' : ''}`}
+                  onClick={() => handlePageClick(index + 1)}
+                >
+                  {index + 1}
+                </button>
+              ))}
+            </div>
             {indexOfLastCard < cardData.length && (
               <button
                 className="btn btn-dark nxt"

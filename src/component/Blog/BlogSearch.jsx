@@ -24,25 +24,27 @@ function BlogSearch() {
         </Container>
       </div>
 
-      {/* Small Screens */}
-      <div className="d-lg-none container-sm">
-        <Container>
-          <Row>
-            <Col>
-            <img src={image} alt="Image" className="present-image" />
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <h1 className="heading-sm">Read Top Articles</h1>
-              <div className="search-bar-sm">
-                <input type="text" className="form-control rounded-0" placeholder="Search Articles" />
-                <button className="btn btn-primary rounded-0"><span>Search</span></button>
-              </div>
-            </Col>
-          </Row>
-        </Container>
+{/* Small Screens */}
+<div className="d-lg-none container-sm">
+  <div className='img-back'></div>
+  <div className="container bb">
+    <div className="row r">
+      <div className="col c">
+        <img src={image} alt="Image" className="present-image" />
       </div>
+    </div>
+    <div className="row r">
+      <div className="col text-center">
+        <h1 className="heading-sm">Read Top Articles</h1>
+        <div className="search-bar-sm">
+          <input type="text" className="form-control rounded-0" placeholder="Search Articles" />
+          <button className="btn btn-success rounded-0"><span>Search</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 }

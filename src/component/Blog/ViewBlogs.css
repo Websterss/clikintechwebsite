@@ -112,3 +112,58 @@
   background-color: white !important;
   color: black !important;
 }
+
+
+.pagination {
+  display: none;
+}
+
+@media (max-width: 1500px) {
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .nxt{
+    display: none;
+  }
+  .prev{
+    display: none;
+  }
+  .pagination button {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .nxt{
+    display: none;
+  }
+  .prev{
+    display: none;
+  }
+  .pagination button {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+}
