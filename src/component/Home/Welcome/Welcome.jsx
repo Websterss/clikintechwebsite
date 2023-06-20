@@ -11,7 +11,7 @@ function Welcome(){
         history.push("/ContactUs")
     }
     return(
-    <div className='div1'> 
+    <div className='div1 div3'> 
     <img src={image} alt="imagehere" className="imgc"/>   
     <div className="divc">
     <p className='title'>We Help  Businesses
