@@ -4,7 +4,14 @@ import image from '../../res/AboutUsImages/Image1.png'
 import image2 from '../../res/AboutUsImages/Image2.png'
 import image3 from '../../res/AboutUsImages/Image3.png'
 import image4 from '../../res/AboutUsImages/Image4.png'
+import { useHistory } from "react-router-dom";
+
 function AboutUs() {
+  const history = useHistory();
+  
+    const navigate = () => {
+        history.push("/ContactUs")
+    }
   return (
     <>
     <div class="div-ab">
@@ -16,7 +23,7 @@ function AboutUs() {
          that help businesses grow while establishing credibility with clients.
          </p>
          <a href="/ContactUs">
-         <button class="btn1-ab"><p class="btext-ab">Get Started</p></button>
+         <button class="btn1-ab" onClick={navigate}><p class="btext-ab">Get Started</p></button>
          </a>
       </div>
       <img src={image} alt="imagehere" class="imag-ab"/>   
