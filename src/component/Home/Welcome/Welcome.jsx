@@ -11,7 +11,7 @@ function Welcome(){
         history.push("/ContactUs")
     }
     return(
-    <div class='div1'> 
+    <div class='div1 div3'> 
     <img src={image} alt="imagehere" class="imgc"/>   
     <div class="divc">
     <p class='title'>We Help  Businesses
@@ -29,7 +29,7 @@ function Welcome(){
     solutions that helps your business scale digitally 
     in the competitive markets.
     </p>
-    <button class="btnc">Get Started</button>
+    <button className="btnc" onClick={navigate}>Get Started</button>
     </div>
     </div> 
     );

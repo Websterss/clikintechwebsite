@@ -2,7 +2,7 @@
 
 .div1a{
 
-
+    
     font-family: "Inter";
     background-color:#050921;
     color: #FFFFFF;
@@ -119,9 +119,12 @@ text-align: left;
     }
   }
 
-  @media only screen and (max-width: 720px){
+  @media only screen and (max-width: 992px){
     .div1a{
-      height: 70vh;
+      position: absolute;
+      height: 90vh;
+      top:750px;
+      width: 100%;
     }
     .titlea{
       font-size: 40px;
@@ -138,6 +141,12 @@ text-align: left;
   }
 
   @media only screen and (max-width: 580px){
+    .div1a{
+      position: absolute;
+      height: 90vh;
+      top:750px;
+      width: 100%;
+    }
     .image-description{
       margin-left: 60px;
     }
@@ -149,6 +158,10 @@ text-align: left;
   @media only screen and (max-width: 527px){
     .div1a{
       height: 70vh;
+      position: absolute;
+      height: 90vh;
+      top:750px;
+      width: 100%;
     }
     .titlea{
       font-size: 30px;
