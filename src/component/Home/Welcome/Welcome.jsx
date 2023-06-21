@@ -12,7 +12,9 @@ function Welcome(){
     }
     return(
     <div class='div1'> 
-    <img src={image} alt="imagehere" class="imgc"/>   
+    <div>
+    <img src={image} alt="imagehere" class="imgc"/> 
+    </div>
     <div class="divc">
     <p class='title'>We Help  Businesses
     To Be Digitally Visible!</p>
