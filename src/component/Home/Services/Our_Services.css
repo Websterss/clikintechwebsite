@@ -51,11 +51,12 @@
     justify-content: center;
     text-align: center;
     background: white;
-border-radius: 15px;
+    border-radius: 15px;
     color: #050921;
     margin-right: 55px;
     padding: 5px;
-    border: 0px
+    border: 0px;
+    height: 500px;
 }
 
 #card-heading{
@@ -66,7 +67,7 @@ font-weight: 700;
 font-size: 24px;
 line-height: 29px;
 color: #050921;
- 
+
 }
 
 #card-para{
@@ -89,7 +90,8 @@ color: #050921;
 border-radius: 15px;
     color: #050921;
     padding: 5px;
-    border: 0px
+    border: 0px;
+    height: 500px;
 }
 
 .bookdemo{
@@ -115,4 +117,13 @@ border-radius: 15px;
     align-items: center;
     
 
+}
+
+@media only screen and (min-width: 300px) and (max-width: 550px){
+    #card1{
+         margin-right: 0px;
+    }
+    #card2{
+    margin-right: 0px;
+    }
 }
