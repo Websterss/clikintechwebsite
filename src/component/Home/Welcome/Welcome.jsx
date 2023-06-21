@@ -1,17 +1,20 @@
 import React from 'react';
 import './Welcome.css'
 import image from '../../../res/HomeImages/Image1.png'
+import { useHistory } from "react-router-dom";
+
 
 function Welcome(){
-    
+    const history = useHistory();
+  
+    const navigate = () => {
+        history.push("/ContactUs")
+    }
     return(
-    <div className='div1'> 
-    <div className='div2'>
-    <div className='div3'>
-    <img src={image} alt="imagehere" className="img-fluid imgc"/>   
-    </div>
-    <div className="divc">
-    <p className='title '>We Help  Businesses
+    <div class='div1'> 
+    <img src={image} alt="imagehere" class="imgc"/>   
+    <div class="divc">
+    <p class='title'>We Help  Businesses
     To Be Digitally Visible!</p>
     <hr className="hrline"></hr>
     <br></br>
@@ -26,8 +29,7 @@ function Welcome(){
     solutions that helps your business scale digitally 
     in the competitive markets.
     </p>
-    <button  className="btnc">Get Started</button>           
-    </div>
+    <button class="btnc">Get Started</button>
     </div>
     </div> 
     );
