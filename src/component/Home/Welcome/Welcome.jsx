@@ -12,9 +12,7 @@ function Welcome(){
     }
     return(
     <div class='div1'> 
-    <div>
-    <img src={image} alt="imagehere" class="imgc"/> 
-    </div>
+    <img src={image} alt="imagehere" class="imgc"/>   
     <div class="divc">
     <p class='title'>We Help  Businesses
     To Be Digitally Visible!</p>
@@ -31,7 +29,7 @@ function Welcome(){
     solutions that helps your business scale digitally 
     in the competitive markets.
     </p>
-    <button class="btnc">Get Started</button>
+    <button className="btnc" onClick={navigate}>Get Started</button>
     </div>
     </div> 
     );

@@ -85,6 +85,12 @@ body,
 
 /* Media Query */
 @media (max-width: 768px) {
+   .div-footer{
+    position: absolute;
+    top: 3200px;
+    width: 100%;
+   }
+
   .footer {
     font-size: 17px;
     padding-left: 50px;
