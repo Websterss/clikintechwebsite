@@ -7,20 +7,21 @@ import image3 from '../../../res/HomeImages/Image4.png'
 function Welcome2(){
     
     return(
-    <div class='div1a'> 
-        <div class="divca">
-            <p class='titlea'>Boost Your Business With<br></br>
+    <div className='div1a'> 
+    <div className='div2a'>
+        <div className="divca">
+            <p className='titlea'>Boost Your Business With<br></br>
             Clikin Tech</p>
-            <hr class="hrlinea"></hr>
-            <p class='texta'>
+            <hr className="hrlinea"></hr>
+            <p className='texta'>
             We deliver high quality products on time to make<br></br>
             your business profitable.
             </p>
-            <div class="image-description">
-                <div class="image-column">
+            <div className="image-description">
+                <div className="image-column">
                     <img src={image2} alt="Object 1"/>
                 </div>
-                <div class="description-column">
+                <div className="description-column">
                     <p><strong>Get Measurable<br></br> ROI</strong><br></br>
                     Unlock the potential for
                     <br></br>exceptional returns on
@@ -28,10 +29,10 @@ function Welcome2(){
                     <br></br>innovative solutions.
                     </p>
                 </div>
-                <div class="image-column">
+                <div className="image-column">
                     <img src={image3} alt="Object 2"/>
                 </div>
-                <div class="description-column">
+                <div className="description-column">
                     <p><strong>Strategy Driven<br></br> Promotion</strong>
                     <br></br>Experience strategic promotion 
                     <br></br>that drives analytical results 
@@ -41,7 +42,10 @@ function Welcome2(){
                 </div>
             </div>
         </div>
-        <img src={image} alt="imagehere" class="img1"/>  
+        <div className='div3a'>
+        <img src={image} alt="imagehere" className="img-fluid img1"/>  
+        </div>
+        </div>
     </div> 
     
     );

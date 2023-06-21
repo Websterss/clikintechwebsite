@@ -9,12 +9,12 @@ import Tech from './technologies/tech'
 function Home() {
   return (
     <div>
-        <Welcome />
-        <Welcome2 />
-        <Our_Services />
+         <Welcome /> 
+      <Welcome2 />
+         {/*  <Our_Services />
         <Tech/>
         <Blog/>
-        <Contact_us />
+        <Contact_us /> */}
        
     </div>
   )

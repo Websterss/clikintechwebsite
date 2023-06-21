@@ -1,22 +1,32 @@
 
 
 .div1a{
-  /* margin-top: 550px; */
-    display: flex;
+
+
     font-family: "Inter";
     background-color:#050921;
     color: #FFFFFF;
+    height: 90vh;
 }  
 
+.div2a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .divca{
-    height: 536px;
+    /* height: 536px;
     width: 640px;
     left: 738px;
-    top: 336px;
-    border-radius: 5px;
+    top: 336px; */
+    /* border-radius: 5px;
     float: right;
-    margin-left: 110px;
+    margin-left: 110px; */
     margin-right: 80px;
+    
 }
 
 
@@ -68,7 +78,8 @@ text-align: left;
 
 .image-description {
     display: flex;
-    justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   }
   
   .image-column,
@@ -95,3 +106,97 @@ text-align: left;
   }
   
   
+  @media only screen and (max-width: 1200px){
+    .div1a{
+      height: 70vh;
+    }
+    .img1{
+      display: none;
+    }
+    .divca{
+      margin-top: 70px;
+      margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 720px){
+    .div1a{
+      height: 70vh;
+    }
+    .titlea{
+      font-size: 40px;
+    }
+    .texta{
+   font-size: 20px;
+    }
+    .image-description{
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+    }
+ 
+  }
+
+  @media only screen and (max-width: 580px){
+    .image-description{
+      margin-left: 60px;
+    }
+    .description-column{
+      margin-left: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 527px){
+    .div1a{
+      height: 70vh;
+    }
+    .titlea{
+      font-size: 30px;
+    }
+    .texta{
+   font-size: 15px;
+    }
+    .image-description{
+      margin-left: 30px;
+    }
+    .description-column{
+      margin-left: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 430px){
+    .div1a{
+      height: 120vh;
+    }
+    
+    .image-description{
+      flex-direction: column;
+       align-items: center;
+    }
+    .image-description{
+      margin-left: 0px;
+    }
+    .description-column{
+     
+      width: 30%;
+      margin-left: 250px;
+      margin-top: -80px;
+    }
+  }
+
+  @media only screen and (max-width: 300px){
+    .div1a{
+      height: 110vh;
+    }
+    
+    .titlea{
+      font-size: 25px;
+    }
+    .description-column{
+     
+      width: 30%;
+      margin-left: 150px;
+      margin-top: -80px;
+    }
+
+  }
