@@ -10,9 +10,10 @@ import Image1 from '../../res/CareerImages/Picture3.png'
 
 function Career(){
     return(
-        <div>
+    <div>
+        {/*Large Screens*/}
         <div className="career-container">
-            <div className="container-lg">
+            <div className="d-none d-lg-block container-lg">
                 <Container>
                     <Row>
                         <Col md={8}>
@@ -39,6 +40,41 @@ function Career(){
 
             </div>
            
+
+            {/* Small Screens */}
+            <div className="d-lg-none container-sm">
+                <div className="img-front"></div>
+                <div className="container bb">
+                    <div className="row r">
+                        <div className="col c">
+                            <img src={Image1} alt="img" className="img-now" ></img>
+
+                        </div>
+
+                    </div>
+
+                    <div className="row r">
+                        <div className="col text-center">
+                        <h3 className="heading-sm"><span>Join our Team</span><br></br>Work with Clikin Tech</h3>
+                        <div className="search-bar-sm">
+                          <input type="text" className="form-control rounded-0" placeholder="Search Career" />
+                          <button className="btn btn-success rounded-0"><span>Search</span></button>
+                          </div>
+                        
+                          <div className="career-career-btn">
+                           <button className="career-btn-sm"  type="button" aria-expanded="false">
+                               Get Started
+                           </button>
+                           </div>
+                        
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </div>
              <div className="page_container">
                   <CareerPage/>
@@ -53,7 +89,7 @@ function Career(){
                </div>
 
               
-        </div>     
+    </div>     
         
         
     )
