@@ -116,8 +116,8 @@
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-left: 16%;
-  margin-top: -5%;
+  margin-left: 18%;
+  margin-top: -10%;
 }
 .img-back {
   position: absolute;
@@ -131,9 +131,9 @@
 
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .container-sm {
-    padding: 20px;
+    padding: 60px;
   }
   
   .heading-sm {
@@ -151,13 +151,13 @@
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 700px) {
   .heading-sm {
     font-size: 35px !important;
     margin-left: -10px !important;
   }
   .container-sm {
-    padding: 100px !important;
+    padding: 110px !important;
   }
   .search-bar-sm {
     flex-wrap: wrap;

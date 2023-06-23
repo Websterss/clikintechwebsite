@@ -3,6 +3,10 @@ import './CareerPage.css'
 
 function CareerPage(){
     return(
+        <div>
+
+        {/*Large Screen*/}
+        
         <section className="blocks">
             <div className="blocks_wrapper">
                 {
@@ -20,6 +24,10 @@ function CareerPage(){
             </div>
 
         </section>
+
+        
+
+     </div> 
     )
 }
 

@@ -1,84 +1,109 @@
-/* Contact_us.css */
 
-/* Increase distance between form fields */
 .form-group .form-control {
-    margin-bottom: 20px;
-    background-color: rgb(241, 237, 237);
-    border-radius: 0.5rem;
-    height: 60px;
-  }
-  
-  .container {
-    padding: 80px;
-    font-family: 'Inter';
-  }
-  
-  .container h1 {
-    font-weight: 700;
-    font-size: 50px;
-    margin: 10px;
-    padding: 10px;
-    line-height: 61px;
-  }
-  
-  .container .para{
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 29px;
-  }
-  
-  .container .line {
-    width: 144px;
-    background-color: #ffffff;
-    border: 3px solid #a9641f;
-  }
-  
-  /* Change button color and set width equal to form fields */
-  .btn-primary {
+  margin-bottom: 20px;
+  background-color: rgb(241, 237, 237);
+  border-radius: 0.5rem;
+  height: 60px;
+}
+
+.container {
+  padding: 80px;
+  font-family: 'Inter';
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 61px;
+}
+
+.container .para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.container .line {
+  width: 144px;
+  background-color: #ffffff;
+  border: 3px solid #a9641f;
+}
+
+
+.btn-primary {
   background-color: #050921;
   width: 106%;
+}
+
+
+.img-container {
+  margin-top: -170px;
+  margin-left: 200px;
+  width: 390px;
+  height: auto;
+  left: 352px;
+  top: 480px;
+}
+
+.image-text {
+  margin: 8px;
+  padding: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.image-text .icon1 {
+  width: 28px;
+  height: 28px;
+  left: 50px;
+}
+
+.image-text .icon2 {
+  width: 24px;
+  height: 24px;
+  left: 50px;
+}
+
+.image-text .icon3 {
+  width: 24px;
+  height: 24px;
+  left: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px;
   }
-  
-  /* Shift the image upwards and resize it */
+
+  .container h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
   .img-container {
-    margin-top: -170px;
-    margin-left: 200px;
-    width: 390px;
-    height: auto;
-    left: 352px;
-    top: 480px;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
   }
-  
-  .image-text {
-    margin: 8px;
-    padding: 8px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
   }
-  
-  .image-text .icon1 {
-    /* gap: 10rem; */
-    width: 28px;
-    height: 28px;
-    left: 50px;
+
+  .container h1 {
+    font-size: 24px;
+    line-height: 36px;
   }
-  
-  .image-text .icon2 {
-    /* gap: 10rem; */
-    width: 24px;
-    height: 24px;
-    left: 50px;
-  }
-  
-  .image-text .icon3 {
-    /* gap: 10rem; */
-    width: 24px;
-    height: 24px;
-    left: 50px;
-  }
-  
+}

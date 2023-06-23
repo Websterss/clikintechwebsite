@@ -9,19 +9,19 @@ function CareerForm() {
     <h1 className='form-heading'>Apply now</h1>
     <Form className='form_container'>
       <Row className='form_row'>
-        <Col>
-          <Form.Control placeholder="Enter First name*" style={{ backgroundColor: '#F1EDED'}} />
+        <Col className="form-forms">
+          <Form.Control  placeholder="Enter First name*" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
-        <Col>
-          <Form.Control placeholder="Enter Last name*" style={{ backgroundColor: '#F1EDED'}}/>
+        <Col className="form-forms">
+          <Form.Control  placeholder="Enter Last name*" style={{ backgroundColor: '#F1EDED'}}/>
         </Col>
       </Row>
      <br />
       <Row>
-        <Col>
+        <Col className="form-forms">
           <Form.Control placeholder="Enter email address*" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
-        <Col>
+        <Col className="form-forms">
           <Form.Control placeholder="Enter Phone no.*" style={{ backgroundColor: '#F1EDED'}}/>
         </Col>
       </Row>
@@ -50,10 +50,10 @@ function CareerForm() {
       </Row>
       <br />
       <Row>
-        <Col>
+        <Col className="form-forms">
           <Form.Control as="textarea" placeholder="Message" rows={6} style={{ backgroundColor: '#F1EDED'}} />
         </Col>
-        <Col>
+        <Col className="form-forms">
           <Form.Control placeholder="Upload Your CV here*" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
       </Row>
@@ -64,7 +64,7 @@ function CareerForm() {
              Submit
             </button>
            </div>
-
+           
         </Col>
       </Row>
      </Form>

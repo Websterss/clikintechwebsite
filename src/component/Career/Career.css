@@ -1,12 +1,13 @@
 .career-container{
-    width: 100vw;
     background: #050921;
     font-family: 'Inter';
+
 }
 
 h4.head-lg{
     color: rgb(206, 226, 244);
-    padding-top: 5rem;
+    padding-top: 4rem;
+    margin-top: 4rem;
 }
 
 
@@ -14,18 +15,14 @@ h3.heading-lg {
     font-weight: 500;
     font-size: 58px;
     margin-bottom: 20px;
-    margin-top: 10px;
     color: white;
+    margin-top: 0px !important;
   }
 
 .career-btn{
     width: 150px;
     height: 50px;
-    left: 1175px;
-    top: 60px;
     background-color: #050921 ;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -48,54 +45,17 @@ h3.heading-lg {
     height: 412px;
 }
 
-
-
 .page_container{
-    width: 100vw;
     background: #ffffff;
 }
 
 
 
-.blocks {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-.blocks_wrapper{
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-   
-}
-
-div .blocks_block{
-    text-align: center;
-    padding: 3rem 2rem;
-}
-
-.blocks_block span {
-    width: 5rem;
-    height: 5rem;
-    font-size: 2.5rem;
-    padding: 0.8rem;
-    place-items: center;
-    padding-bottom: 2rem;
-}
-
-.blocks_block small{
-    margin-top: 1rem;
-    display: block;
-    font-weight: 300;
-}
 
 .form-btn{
     width: 605px;
     height: 50px;
-    left: 1175px;
-    top: 60px;
     background-color: #050921 ;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -103,8 +63,6 @@ div .blocks_block{
     color: #FFFFFF;
     border: 1.5px solid #D7D7D7;
     border-radius: 10px;
-    box-sizing: border-box;
-    margin-right: 10px;
 }
 
 .form-form-btn{
@@ -112,14 +70,13 @@ div .blocks_block{
 }
 
 .form_container{
-    width: 100vw;
     margin-top: 1rem;
     margin-bottom: 3rem;
     margin-left: 4rem;
 }
 
 .form_gender  {
-    width: 605px;
+    width: 600px;
 }
 
 .career_img{
@@ -136,3 +93,173 @@ div .blocks_block{
     margin-top: 4rem;
     font-weight: 600;
 }
+
+
+
+
+
+
+
+.container-sm {
+    background: #050921;
+    font-family: 'Inter';
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .bb {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .r {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -150px;
+  }
+  
+  .c {
+    flex: 1;
+    padding: 0 15px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  h3.heading-sm {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  h3.heading-sm span {
+    color: rgb(206, 226, 244);
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .search-bar-sm {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .search-bar-sm input {
+    flex: 1;
+    margin-right: 5px;
+    height: 50px;
+  }
+
+  .img-front {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    border-radius: 0 0 50% 50%;
+    overflow: hidden;
+    margin-top: -350px;
+    background: #bbcdec;
+  }
+
+  .img-now{
+  position: absolute;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-left: 15%;
+  margin-top: -8%;
+  }
+
+
+  .career-btn-sm{
+    width: 150px;
+    height: 50px;
+    background-color: #050921 ;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    border: 1.5px solid #D7D7D7;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    
+}
+
+
+  @media screen and (max-width: 800px) {
+    .container-sm {
+      padding: 60px;
+    }
+    
+    .heading-sm {
+      font-size: 30px;
+      margin-left: -10px !important;
+      
+    }
+
+    .heading-sm span {
+        font-size: 20px;
+    line-height: 30px;
+        
+      }
+    
+    
+    .search-bar-sm input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .btn-success {
+      margin-top: -10px;
+    }
+
+    .img-imgs{
+      height: 300px;
+    }
+    .career_img {
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .heading-sm {
+      font-size: 35px !important;
+      margin-left: -10px !important;
+    }
+
+    .heading-sm span {
+        font-size: 20px;
+    line-height: 30px;
+        
+      }
+    .container-sm {
+      padding: 110px !important;
+    }
+    .search-bar-sm {
+      flex-wrap: wrap;
+    }
+    
+    .search-bar-sm input {
+      width: 100%;
+      margin-bottom: 10px;
+      margin-top: -10px;
+    }
+    .btn-success {
+      margin-top: -20px;
+      width: 120px;
+    }
+    .career_img {
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 50px;
+    }
+  }

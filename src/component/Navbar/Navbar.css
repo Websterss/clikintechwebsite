@@ -62,8 +62,7 @@ box-sizing: border-box;
 margin-right: 10px;
 }
 
-.navbar-upper{
-    
+.navbar-upper{    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

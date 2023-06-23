@@ -1,48 +1,76 @@
+/* ContactUshead.css */
+
 .custom-container {
   display: flex;
-  font-family: 'Inter';
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+   background: #050921;
+   color: white;
 }
 
 .custom-heading {
-  background-color: #050921;
-  text-align: center;
-  color: white;
-  flex-direction: column;
-  align-items: center;
-  height: calc(50bh -0.1px);
-  padding: 3rem 1.5rem;
+  text-align: left;
 }
 
-.custom-heading h1 {
-  font-size: 5rem;
-  margin-bottom: 1rem;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 580;
-  font-size: 64px;
-  line-height: 100px;
+.text1 {
+  font-size: 67px;
+  line-height: 38px;
+  margin-bottom: 20px;
 }
 
-.custom-heading h6 {
-  margin-bottom: 1.5rem;
-  width: 105px;
-  height: 29px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1.1rem;
-  line-height: 90px;
+.text2 {
+  font-size: 24px;
+  line-height: 46px;
 }
 
 .custom-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #050921;
+  text-align: right;
 }
 
-.custom-image img {
-  max-width: 85%;
-  max-height: 75%;
+.image-size {
+  width: 600px;
+  height: auto;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .custom-container {
+    flex-direction: column;
+    align-items: center;
+   background: #050921;
+  }
+
+  .text1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .text2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .image-size {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+
+  .text2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .image-size {
+    width: 200px;
+  }
 }

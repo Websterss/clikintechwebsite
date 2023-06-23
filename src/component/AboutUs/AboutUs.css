@@ -3,25 +3,27 @@
   position: absolute;
     width: 100%;
     height: 80%;
-    top: 0px;
+
     background: #050921;
     display: flex;
   }
+  
   .div3-ab {
   position: absolute;
     width: 100%;
-    height: 399px;
+    height: 250px;
     left: 0px;
-    top: -177px;
-    border-radius: 50%;
+    top: -1px;
+    border-radius:0 0 100% 100% ;
     background: #cceae9;
+   
   }
   .heading-ab {
   position: absolute;
     width: 130px;
     height: 34px;
     left: 24px;
-    top: 253px;
+    top: 273px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
@@ -34,7 +36,7 @@
     width: 291px;
     height: 48px;
     left: 25px;
-    top: 302px;
+    top: 332px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -46,8 +48,8 @@
     position: absolute;
     width: 135px;
     height: 33.75px;
-    left: 3.0%;
-    top: 370px;
+    left: 3.5%;
+    top: 400px;
     border-radius: 8.88px;
   }
   .btext-ab {
