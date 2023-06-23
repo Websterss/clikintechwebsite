@@ -177,22 +177,23 @@ margin-top: 100px;
   }
   .title{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 140px;
   }
   .text{
     text-align: center;
     color: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 140px;
   }
   .imgc{
-    margin-top: 50px;
+    margin-top: 140px;
   }
 
   .btnc{
-    margin-top: 50px;
+    margin-top: 140px;
+    background-color:#a3a5d2;
   }
   .hrline{
-    margin-top: 60px;
+    margin-top: 140px;
   }
 }
 
