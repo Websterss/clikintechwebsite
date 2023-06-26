@@ -46,7 +46,7 @@
     margin-bottom: 70px;
 }
 
-.card {
+#card3 {
     border-radius: 1rem;
     box-shadow: 0px 4px 6px #999;
     display: flex;
@@ -57,7 +57,7 @@
     width: 350px;
 }
 
-.card-img {
+#card-img1 {
     width: 130px;
     height: 130px;
     display: flex;
@@ -67,7 +67,7 @@
     margin-left: 110px;
 }
 
-.card-title {
+#card-title1 {
     color: #050921;
 }
 

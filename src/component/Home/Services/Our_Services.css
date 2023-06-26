@@ -53,7 +53,7 @@
     background: white;
     border-radius: 15px;
     color: #050921;
-    margin-right: 55px;
+    /* margin-right: 55px; */
     padding: 5px;
     border: 0px;
     height: 500px;
@@ -119,11 +119,30 @@ border-radius: 15px;
 
 }
 
-@media only screen and (min-width: 300px) and (max-width: 550px){
-    #card1{
-         margin-right: 0px;
+@media (min-width: 768px) and (max-width: 1200px){
+  .our1{
+    height: 160vh;
+  }
+    #c1{
+    margin-top: 50px;
+   }
+   #c2{
+    margin-top: 110px;
+   }
+   #c3{
+    margin-top: 170px;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+    
+    #c1{
+        margin-top: 130px;
     }
-    #card2{
-    margin-right: 0px;
-    }
+}
+
+@media (min-width: 300px) and (max-width: 650px){
+   .our1{
+    height: 250vh;
+   }
 }

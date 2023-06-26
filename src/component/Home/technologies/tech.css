@@ -62,3 +62,34 @@ border: 2px solid #A9641F;
     margin: 0 auto; /* Center the logos horizontally */
   }
   
+
+  @media only screen and (max-width: 595px) and (min-width: 500px)  {
+  .carousel-underline{
+    width: 400px;
+  }
+
+  .carousel-heading{
+    font-size: 30px;
+  }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width: 400px)  {
+    .carousel-underline{
+      width: 250px;
+    }
+  
+    .carousel-heading{
+      font-size: 25px;
+    }
+    }
+
+    
+  @media only screen and (max-width: 400px) and (min-width: 300px)  {
+    .carousel-underline{
+      width: 150px;
+    }
+  
+    .carousel-heading{
+      font-size: 20px;
+    }
+    }

@@ -8,46 +8,44 @@ const Blog = () => {
         <div>
             <section id="blog">
                 <div className="blog-heading">
-                    <h3>Our Blog</h3>
+                    <h3 className="blog-h3">Our Blog</h3>
                     <div className="underline"></div>
                 </div>
 
                 {/* Blog Container */}
-                <div className="blog-container">
-
-                    <div className="blog-box">
-                        <div className="blog-img">
-                            <img src={image} alt="image" />
-                        </div>
-                        <div className="blog-text">
-                            <a href="#" className="blog-title"><h5>The Ultimate Guide To SEO Success In 2023</h5></a>
-                            <p >Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.</p>
+                <div className="container blog-container">
+                <div className="row row-cols-1 row-cols-md-3 g-4">
+  <div className="col ">
+    <div className="card h-100">
+      <img src={image} className="card-img-top" alt="..." />
+      <div className="card-body">
+      <a href="#" className="blog-title"><h5 className="card-title">The Ultimate Guide To SEO Success In 2023</h5></a>
+      <p className="card-text">Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.</p>
                             <a href="#" className="btn1">Explore more</a>
-                        </div>
-                    </div>
-
-                    <div className="blog-box">
-                        <div className="blog-img">
-                            <img src={image} alt="image" />
-                        </div>
-                        <div className="blog-text">
-                            <a href="#" className="blog-title"><h5>Mastering Social Media Analytics:Measuring Success</h5></a>
-                            <p >Learn how to effectively measure and optimise your social media marketing strategies.</p>
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src={image} className="card-img-top" alt="..." />
+      <div className="card-body">
+      <a href="#" className="blog-title"><h5 className="card-title">The Ultimate Guide To SEO Success In 2023</h5></a>
+      <p className="card-text">Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.</p>
                             <a href="#" className="btn1">Explore more</a>
-                        </div>
-                    </div>
-
-                    <div className="blog-box">
-                        <div className="blog-img">
-                            <img src={image} alt="image" />
-                        </div>
-                        <div className="blog-text">
-                            <a href="#" className="blog-title"><h5>Unleashing The Potential of Data-Driven Marketing</h5></a>
-                            <p>Discover the strategies and tools to harness the power nof data to limitless possibilities of data-driven marketing.</p>
-                            <a href="#" className="btn1">Explore more </a>
-                        </div>
-                    </div>
-
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src={image} className="card-img-top" alt="..." />
+      <div className="card-body">
+      <a href="#" className="blog-title"><h5 className="card-title">The Ultimate Guide To SEO Success In 2023</h5></a>
+      <p className="card-text">Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.</p>
+                            <a href="#" className="btn1">Explore more</a>
+      </div>
+    </div>
+  </div>
+</div>
                 </div>
             </section>
         </div>
@@ -56,3 +54,5 @@ const Blog = () => {
 
 
 export default Blog;
+
+
