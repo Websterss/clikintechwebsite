@@ -89,9 +89,9 @@ margin-top: 100px;
 
   .text {
     position: absolute;
-    width: 297px;
+    width: 397px;
     height: 117px;
-    left: calc(50% - 294px / 2);
+    left: calc(50% - 397px / 2);
     top: 203px;
 
     font-family: "Inter";
@@ -149,7 +149,7 @@ margin-top: 100px;
     font-weight: 600;
     font-size: 14px;
     line-height: 111.52%;
-    /* or 16px */
+   
 
     text-align: center;
 
