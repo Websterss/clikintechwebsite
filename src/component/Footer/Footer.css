@@ -92,7 +92,7 @@ body,
 
   .footer {
     font-size: 17px;
-    padding-left: 50px;
+    padding-left: 100px; 
   }
   
   .footer-logo {
@@ -119,5 +119,11 @@ body,
   .list-unstyled {
     margin-top: 10px;
     margin-left: -110px;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .footer {
+    padding-left: 100px;
   }
 }
