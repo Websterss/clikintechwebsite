@@ -1,0 +1,43 @@
+.login{
+    height: 40vh;
+}
+
+.login2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    gap: 20px;
+    background-color: #050921;
+}
+
+.login1{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login3{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logininput1{
+    width: 400px;
+
+}
+
+.logininput2{
+    width: 400px;
+}
+
+.loginbutton{
+    margin-bottom: 20px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+}
