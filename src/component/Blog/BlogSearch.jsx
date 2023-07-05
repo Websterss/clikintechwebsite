@@ -25,7 +25,7 @@ function BlogSearch() {
       </div>
 
 {/* Small Screens */}
-<div className="d-lg-none container-sm">
+<div className="d-lg-none container-fluid sm">
   <div className='img-back'></div>
   <div className="container bb">
     <div className="row r">

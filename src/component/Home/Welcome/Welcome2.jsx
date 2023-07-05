@@ -19,7 +19,7 @@ function Welcome2(){
             </p>
             <div className="image-description">
                 <div className="image-column">
-                    <img src={image2} alt="Object 1"/>
+                    <img src={image2} alt="Object 1" className='ig1'/>
                 </div>
                 <div className="description-column">
                     <p><strong>Get Measurable<br></br> ROI</strong><br></br>
@@ -30,7 +30,7 @@ function Welcome2(){
                     </p>
                 </div>
                 <div className="image-column">
-                    <img src={image3} alt="Object 2"/>
+                    <img src={image3} alt="Object 2" className='ig2'/>
                 </div>
                 <div className="description-column">
                     <p><strong>Strategy Driven<br></br> Promotion</strong>

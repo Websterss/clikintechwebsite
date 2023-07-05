@@ -167,3 +167,41 @@
   }
 
 }
+@media only screen and (max-width: 400px){
+ .my-card{
+  width: 300px;
+  height: 500px;
+ }
+ .like-card{
+  margin-left: 200px;
+  margin-top: -60px;
+}
+
+.share-card{
+  margin-left: 10px;
+  margin-top: -60px;
+}
+.my-card-image {
+  width: 300px;
+  object-fit: cover;
+}
+.my-card-text {
+  width: 280px;
+  height: 72px;}
+
+.btn-secondary{
+  margin-top: 22px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+}

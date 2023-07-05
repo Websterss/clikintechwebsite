@@ -57,7 +57,7 @@
 
 
 /* CSS code */
-.container-sm {
+.sm {
   background: #050921;
   font-family: 'Inter';
   height: 100vh;
@@ -129,47 +129,10 @@
   background: #BFBFBF;
 }
 
-
-
-@media screen and (max-width: 800px) {
-  .container-sm {
-    padding: 60px;
-  }
-  
-  .heading-sm {
-    font-size: 30px;
-    margin-left: -10px !important;
-  }
-  
-  
-  .search-bar-sm input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .btn-success {
-    margin-top: -10px;
+@media screen and (max-width: 1200px) {
+  .sm {
+    padding: 150px;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .heading-sm {
-    font-size: 35px !important;
-    margin-left: -10px !important;
-  }
-  .container-sm {
-    padding: 110px !important;
-  }
-  .search-bar-sm {
-    flex-wrap: wrap;
-  }
-  
-  .search-bar-sm input {
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: -10px;
-  }
-  .btn-success {
-    margin-top: -20px;
-    width: 120px;
-  }
-}
+
