@@ -21,7 +21,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <TopBar />
+      <Switch>
+      <Route exact path="/" component={TopBar} />
+      </Switch>
         <Navbar />
       <Switch>
          <Route exact path="/" component={Home} />
