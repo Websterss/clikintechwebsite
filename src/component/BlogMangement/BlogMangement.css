@@ -248,3 +248,32 @@ margin-top: 10px;
     border: 2px solid #4356C8;
     opacity: 1;
 }
+
+.blogmangementcardbuttonedit{
+  color: #2A94F4;
+  border: 2px solid #2A94F4;
+  font-family: "Inter";
+    font-weight: 400;
+    font-size: 15.5px;
+    padding: 10px;
+  
+}
+
+
+.blogmangementcardbuttondelete{
+    color: #D73535;
+  border: 2px solid #D73535;
+  font-family: "Inter";
+    font-weight: 400;
+    font-size: 15.5px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.blogmangementflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+

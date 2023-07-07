@@ -5,7 +5,31 @@ import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import AppsIcon from '@mui/icons-material/Apps';
 import SearchIcon from '@mui/icons-material/Search';
 
+import image from '../../res/blogimages/blog.png';
+import likeimage from '../../res/blogimages/like.png';
+import shareimage from '../../res/blogimages/share.png';
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
 function BlogMangement() {
+
+   const cardData = [
+      {
+        title: 'The Ultimate Guide To SEO Success in 2023',
+        text: 'Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.',
+        image: image,
+      },
+      {
+        title: 'Mastering Social Media Analytics: Measuring Success',
+        text: 'Learn how to effectively measure and optimize your social media marketing strategies.',
+        image: image,
+      },
+      {
+        title: 'Unleashing The Potential Of Data-Driven marketing',
+        text: 'Discover the strategies and tools to harness the power of data to limitness possibilities of data-driven marketing.',
+        image: image,
+      }
+    ];
+
   return (
     <div>
         <div className='blogmangement'>
@@ -68,12 +92,32 @@ function BlogMangement() {
                 </div>
              </div>
         </div>
-        <div className='blogmangement17'>
+        {/* <div className='blogmangement17'>
             <div className='blogmangement18'>
               <p className='blogmangementp5'>Create Your First Blog</p>
               <button className='blogmangementbutton1'>Create Blog</button>
             </div>
-        </div>
+        </div> */}
+
+<div className="row">
+        {cardData.map((card) => (
+          <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" key={card.id}>
+            <div className="my-card">
+              <img src={card.image} className="my-card-image" alt="Card" />
+              <div className="my-card-body">
+                <h5 className="my-card-title">{card.title}</h5>
+                <p className="my-card-text">{card.text}</p>
+                <div className='blogmangementflex'>
+                <button className='blogmangementcardbuttonedit'>Edit</button>
+                <button className='blogmangementcardbuttondelete'>Delete</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+
     </div>
   )
 }

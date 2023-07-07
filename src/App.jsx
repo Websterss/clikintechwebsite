@@ -11,10 +11,13 @@ import Career from './component/Career/Career';
 import Services from './component/Our_Service/Our_Service';
 import BlogMangement from './component/BlogMangement/BlogMangement';
 import Login from './component/Login/Login';
-
+import Private from './component/Private';
 
 
 function App() {
+
+
+
   return (
     <div className="App">
       <Router>
@@ -27,8 +30,8 @@ function App() {
          <Route exact path="/ContactUs" component={ContactUs} />
          <Route exact path="/Career" component={Career} />
          <Route exact path="/Services" component={Services} />
-         <Route exact path="/BlogMangement" component={BlogMangement} />
          <Route exact path="/Login" component={Login} />
+         <Private exact path="/BlogMangement" component={BlogMangement} /> 
       </Switch>
        <FooterBottom />
   </Router>
