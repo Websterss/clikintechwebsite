@@ -12,6 +12,8 @@ import Services from './component/Our_Service/Our_Service';
 import BlogMangement from './component/BlogMangement/BlogMangement';
 import Login from './component/Login/Login';
 import Private from './component/Private';
+import BlogPostForm from './component/BlogMangement/BlogPostForm';
+import BlogEdit from './component/BlogMangement/BlogEdit';
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
          <Route exact path="/Services" component={Services} />
          <Route exact path="/Login" component={Login} />
          <Private exact path="/BlogMangement" component={BlogMangement} /> 
+         <Private exact path="/BlogPost" component={BlogPostForm} /> 
+         <Private exact path="/BlogEdit/:id" component={BlogEdit} /> 
       </Switch>
        <FooterBottom />
   </Router>

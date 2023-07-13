@@ -46,7 +46,7 @@ function Login() {
                 try {
                      const url = "http://localhost:5000/signin";
                      const { data: res } = await axios.post(url, {email, password});
-                     localStorage.setItem("data", res.data);
+                     localStorage.setItem("keyid", res.data);
                      successnotify(res.message);
                      window.location.href="/BlogMangement"
                 } catch (error) {
@@ -79,8 +79,6 @@ draggable
 pauseOnHover
 theme="light"
 />
-{/* Same as */}
-<ToastContainer />
     </div>
   )
 }

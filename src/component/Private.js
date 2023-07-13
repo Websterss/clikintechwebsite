@@ -7,7 +7,7 @@ const Private = ({ component: Component, ...rest }) => {
           {...rest}
           render={
             (props) => 
-            localStorage.getItem("data") ? 
+            localStorage.getItem("keyid") ? 
             (<Component {...props} />)
             :
             (<Redirect to="/Login" />)
