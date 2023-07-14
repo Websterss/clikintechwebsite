@@ -61,8 +61,11 @@ function BlogPostForm() {
           title: title, image: image, description: description, postId: localStorage.getItem("keyid")
         })
         if(post.status === 200){
-           successnotify(post.data.message);
-         window.location.href = "/BlogMangement"
+          successnotify(post.data.message);
+          setTimeout(() => {
+            window.location.href = "/BlogMangement"
+          },5000)
+        
         }
       } catch (error) {
         errornotify("Network Error")

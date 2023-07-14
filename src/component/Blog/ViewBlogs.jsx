@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import image from '../../res/blogimages/blog.png';
 import likeimage from '../../res/blogimages/like.png';
 import shareimage from '../../res/blogimages/share.png';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -110,7 +109,7 @@ console.log(cardData);
 
   return (
     <div>
-      <SkeletonTheme highlightColor='#C38787'>
+      <SkeletonTheme highlightColor='#050921'>
       <div className="app-container">
       
       {/* Large Screens */}
@@ -137,7 +136,7 @@ console.log(cardData);
   <div className="container bb">
     <div className="row r">
       <div className="col c">
-        <img src={image}  className="present-image" alt={image} />
+        <img src={image1}  className="present-image" alt={image1} />
       </div>
     </div>
     <div className="row r">
@@ -154,37 +153,38 @@ console.log(cardData);
 
     </div>
     <div className="container-fluid container-max-width">
-    
+  
        {
         isLoading ? (
           <div className='row'>
 
           <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
-                  <div className="my-card">
-                    <Skeleton  className="my-card-image" alt="Card" />
-                    <div className="my-card-body">
-                      <Skeleton  className="my-card-title"></Skeleton>
-                      <Skeleton  className="my-card-text"></Skeleton>
+                  <div className="sk-my-card">
+                    <Skeleton  className="sk-my-card-image" alt="Card" />
+                    <div className="sk-my-card-body">
+                      <Skeleton  className="sk-my-card-title"></Skeleton>
+                      <Skeleton  className="sk-my-card-text"></Skeleton>
                     </div>
                   </div>
                 </div>
           
                 <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
-                  <div className="my-card">
-                    <Skeleton  className="my-card-image" alt="Card" />
-                    <div className="my-card-body">
-                      <Skeleton  className="my-card-title"></Skeleton>
-                      <Skeleton  className="my-card-text"></Skeleton>
+                  <div className="sk-my-card">
+                    <Skeleton  className="sk-my-card-image" alt="Card" />
+                    <div className="sk-my-card-body">
+                      <Skeleton  className="sk-my-card-title"></Skeleton>
+                      <Skeleton  className="sk-my-card-text"></Skeleton>
                     </div>
                   </div>
                 </div>
           
+              
                 <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
-                  <div className="my-card">
-                    <Skeleton  className="my-card-image" alt="Card" />
-                    <div className="my-card-body">
-                      <Skeleton  className="my-card-title"></Skeleton>
-                      <Skeleton  className="my-card-text"></Skeleton>
+                  <div className="sk-my-card">
+                    <Skeleton  className="sk-my-card-image" alt="Card" />
+                    <div className="sk-my-card-body">
+                      <Skeleton  className="sk-my-card-title"></Skeleton>
+                      <Skeleton  className="sk-my-card-text"></Skeleton>
                     </div>
                   </div>
                 </div>

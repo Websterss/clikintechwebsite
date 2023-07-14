@@ -57,7 +57,7 @@ function BlogMangement() {
 
   return (
     <div>
-        <SkeletonTheme highlightColor='#C38787'>
+        <SkeletonTheme highlightColor='#050921'>
        <BlogLogo />
         <div className='blogmangement2'>
            <div className='blogmangement3'>
@@ -115,35 +115,35 @@ function BlogMangement() {
     isLoading ? (
       <div className='row'>
 
-<div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
-        <div className="my-card">
-          <Skeleton  className="my-card-image" alt="Card" />
-          <div className="my-card-body">
-            <Skeleton  className="my-card-title"></Skeleton>
-            <Skeleton  className="my-card-text"></Skeleton>
-          </div>
-        </div>
-      </div>
+                <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
+                  <div className="sk-my-card">
+                    <Skeleton  className="sk-my-card-image" alt="Card" />
+                    <div className="sk-my-card-body">
+                      <Skeleton  className="sk-my-card-title"></Skeleton>
+                      <Skeleton  className="sk-my-card-text"></Skeleton>
+                    </div>
+                  </div>
+                </div>
 
-      <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
-        <div className="my-card">
-          <Skeleton  className="my-card-image" alt="Card" />
-          <div className="my-card-body">
-            <Skeleton  className="my-card-title"></Skeleton>
-            <Skeleton  className="my-card-text"></Skeleton>
-          </div>
-        </div>
-      </div>
+                <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
+                  <div className="sk-my-card">
+                    <Skeleton  className="sk-my-card-image" alt="Card" />
+                    <div className="sk-my-card-body">
+                      <Skeleton  className="sk-my-card-title"></Skeleton>
+                      <Skeleton  className="sk-my-card-text"></Skeleton>
+                    </div>
+                  </div>
+                </div>
 
-      <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
-        <div className="my-card">
-          <Skeleton  className="my-card-image" alt="Card" />
-          <div className="my-card-body">
-            <Skeleton  className="my-card-title"></Skeleton>
-            <Skeleton  className="my-card-text"></Skeleton>
-          </div>
-        </div>
-      </div>
+                <div className="col-lg-4 col-md-6 mb-4 d-flex justify-content-center" >
+                  <div className="sk-my-card">
+                    <Skeleton  className="sk-my-card-image" alt="Card" />
+                    <div className="sk-my-card-body">
+                      <Skeleton  className="sk-my-card-title"></Skeleton>
+                      <Skeleton  className="sk-my-card-text"></Skeleton>
+                    </div>
+                  </div>
+                </div>
                   
     </div>
     ) : (
@@ -223,10 +223,11 @@ const del = async() => {
     const elete = await axios.delete(`http://localhost:5000/api/delete/${id.id}`)
 console.log(elete)
 if(elete.status === 200){
+  successnotify(elete.data.message)
   setTimeout(() => {
-    successnotify(elete.data.message)
+    window.location.reload();
   },5000)
-  window.location.reload();
+ 
 }
   
 } catch (error) {

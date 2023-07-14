@@ -45,10 +45,16 @@ function Login() {
 
                 try {
                      const url = "http://localhost:5000/signin";
-                     const { data: res } = await axios.post(url, {email, password});
-                     localStorage.setItem("keyid", res.data);
-                     successnotify(res.message);
-                     window.location.href="/BlogMangement"
+                     const  data  = await axios.post(url, {email, password});
+                     console.log(data)
+                    if(data.status === 201){
+                     localStorage.setItem("keyid", data.data);
+                     successnotify(data.data.message);
+                     setTimeout(() => {
+                     window.location.href="/BlogMangement";
+                     }, 5000)
+                     
+                    }
                 } catch (error) {
                     errornotify(error.response.data.message)
                     console.log(error.response.data.message)
