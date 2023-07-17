@@ -6,11 +6,11 @@ function Our_Service_body() {
     return (
         <div className="choose-us-body">
             <div className="choose-us-header">
-                <h1>Why Choose Us</h1>
+                <h5>Why Choose Us</h5>
                 <div className="bottom-line"></div>
                 <p>At Clikin Tech, we place your business goals at the forefront of our priorities. We take immense pride in taking the burden of tasks, enabling you to concentrate on what truly matters - attaining remarkable success.</p>
             </div>
-            <div className="choose-us-container flex">
+            <div className="choose-us-container choose-us-section flex">
                 <div className="choose-us-left">
                     <ol>
                         <li className="item">

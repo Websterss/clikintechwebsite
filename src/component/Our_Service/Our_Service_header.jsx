@@ -13,6 +13,7 @@ function Our_Services_header() {
                 <a href="#" className="secondary-button">Get in touch<BsArrowRightShort className="header-icon" /></a>
             </div>
             <div className="header-right">
+                <div className="img-bg"></div>
                 <img src={image} alt="Hero-Image" />
             </div>
         </div>

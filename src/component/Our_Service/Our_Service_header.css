@@ -1,10 +1,11 @@
 .header-container {
-    height: 400px;
+    height: 100%;
     background-color: #050921;
     color: white;
     width: 100%;
     padding: 0 30px 30px 0;
     font-family: 'Inter';
+    overflow: hidden;
 }
 
 .header-left h1 {
@@ -35,11 +36,6 @@ a {
     transition: 0.2s ease-out;
 }
 
-.primary-button:hover {
-    background-color: #3797b4;
-    color: white;
-}
-
 .secondary-button {
     border: 0.5px solid white;
     border-radius: 6px;
@@ -54,23 +50,54 @@ a {
     font-size: 30px;
 }
 
-.secondary-button:hover {
-    color: #3797b4;
-}
-
 .header-section {
     justify-content: center;
-    gap: 200px;
+    gap: 150px;
 }
 
 .header-left {
-    max-width: 40vw;
+    max-width: 500px;
+    margin-left: 20px;
 }
 
 .header-left h1 {
     margin-top: 20px;
+    font-size: 55px;
+    font-weight: bold;
 }
 
+.header-left p{
+    font-size: 16px;
+}
 .header-right img {
-    width: 400px;
+    width: 100%
+}
+
+
+/* __________________Responsiveness_____________________ */
+
+@media only screen and (max-width: 991px) {
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .img-bg{
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        border-radius: 0 0 50% 50%;
+        overflow: hidden;
+        background: #CCE7F8;
+      }
+
+    .header-right img{
+        position: relative;
+        width:  60%;
+        padding: 0;
+        border-radius: 50%; 
+        list-style: none; 
+        margin: 70px 100px 30px 100px;
+        }
+      
+      
 }

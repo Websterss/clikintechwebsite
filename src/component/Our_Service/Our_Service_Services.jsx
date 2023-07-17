@@ -11,7 +11,7 @@ function Our_Service_Services() {
     return (
         <div className="our-service-container">
             <div className="our-service-header-container">
-                <h1>OUR SERVICE</h1>
+                <h5>OUR SERVICE</h5>
                 <div className="border-line"></div>
                 <p>Maximize the business potential with our excellent services tailored to your needs</p>
             </div>
