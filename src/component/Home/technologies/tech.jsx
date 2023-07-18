@@ -12,7 +12,7 @@ import image7 from '../../../res/HomeImages/7.png';
 import image8 from '../../../res/HomeImages/8.png';
 import './tech.css';
 
-const LogoCarousel = () => {
+const Tech = () => {
   const CustomPrevArrow = (props) => {
     const { className, onClick } = props;
     return (
@@ -93,4 +93,4 @@ const LogoCarousel = () => {
   );
 };
 
-export default LogoCarousel;
+export default Tech;

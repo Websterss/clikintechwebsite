@@ -3,20 +3,19 @@
 }
 
 .our-service-header-container {
-    margin: 30px 300px 20px 300px;
+    padding: 30px 300px 20px 300px;
     align-items: center;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
-.our-service-header-container h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
+.our-service-header-container h5 {
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .our-service-header-container p {
-    font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 21px;
 }
 
 .border-line {
@@ -25,10 +24,6 @@
     border: 2px solid #A9641F;
     margin: 0 auto;
     margin-bottom: 10px;
-}
-
-.our-service-header-container p {
-    font-size: 1.5rem;
 }
 
 .flex {
@@ -92,4 +87,14 @@
     color: white;
     margin-left: 110px;
     margin-bottom: 30px;
+}
+
+
+/* __________________Responsiveness_____________________ */
+
+@media only screen and (max-width: 991px) {
+    .our-service-header-container{
+        padding:  0 20px 0  20px;
+    }
+
 }
