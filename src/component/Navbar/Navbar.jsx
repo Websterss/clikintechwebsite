@@ -2,15 +2,23 @@ import React from 'react';
 import "./Navbar.css";
 import navbarimage from "../../res/HomeImages/logo.png";
 import MenuIcon from '@mui/icons-material/Menu';
-
+import { useHistory } from "react-router-dom";
 
 function Navbar() {
+
+  const history = useHistory();
+  
+    const navigate = () => {
+        history.push("/ContactUs")
+    }
+   
+
   return (
     <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
     <a className="navbar-brand" href="/"><img src={navbarimage} className='navbarimage' alt="" /></a>
     <div className='navbar-upper ms-auto'>
-    <button className="navbar-upper-btn"  type="button" aria-expanded="false">Book a Demo</button>
+    <button className="navbar-upper-btn"  type="button"  aria-expanded="false">Book a Demo</button>
     </div>   
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-tog"> <MenuIcon className='menu'/> </span>
@@ -37,7 +45,7 @@ function Navbar() {
         </li>
       </ul>
       <form className="d-flex ms-auto">
-        <button className="navbar-btn">Book a Demo</button>
+        <button className="navbar-btn"  onClick={navigate}>Book a Demo</button>
       </form>
     </div>
   </div>
