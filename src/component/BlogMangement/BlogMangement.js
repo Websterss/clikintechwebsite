@@ -19,7 +19,7 @@ function BlogMangement() {
   //get Blog
   useEffect(() => {
       axios
-        .get("http://localhost:5000/api/get")
+        .get("https://clikintechwebsite.onrender.com/api/get")
         .then(res => 
           {setCardData(res.data.blog)
             setISLodaing(false)
@@ -220,7 +220,7 @@ function DeleteBlog(id){
 
 const del = async() => {
   try {
-    const elete = await axios.delete(`http://localhost:5000/api/delete/${id.id}`)
+    const elete = await axios.delete(`https://clikintechwebsite.onrender.com/api/delete/${id.id}`)
 console.log(elete)
 if(elete.status === 200){
   successnotify(elete.data.message)

@@ -1,7 +1,17 @@
-import React, {useState} from 'react';
+import React, {useState,} from 'react';
 import "./BlogPostForm.css";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
+import BeatLoader from "react-spinners/BeatLoader";
+
+
+
+const override = {
+  display: "block",
+  margin: "0 auto",
+  borderColor: "red",
+};
+
 
 
 
@@ -10,6 +20,9 @@ function BlogPostForm() {
     const [title, setTitle] = useState("");
     const [image, setImage] = useState("");
     const [description, setDescription]  = useState("");
+
+    let [loading, setLoading] = useState(false);
+   
 
     const handleIamge = (e) => {
       const file = e.target.files[0];
@@ -55,12 +68,13 @@ function BlogPostForm() {
 
      const Blog = async(e) => {
       e.preventDefault();
-      
+        setLoading(true);
       try {
-        const post  = await axios.post(`http://localhost:5000/api/post`, {
+        const post  = await axios.post(`https://clikintechwebsite.onrender.com/api/post`, {
           title: title, image: image, description: description, postId: localStorage.getItem("keyid")
         })
         if(post.status === 200){
+          setLoading(false);
           successnotify(post.data.message);
           setTimeout(() => {
             window.location.href = "/BlogMangement"
@@ -76,7 +90,7 @@ function BlogPostForm() {
    
 
   return (
-    <div>
+    <div className="sweet-loading">
         <div className='blogform1'>
             <div className='blogform2'>
                 <form className='blogform3' onSubmit={Blog}>
@@ -87,7 +101,10 @@ function BlogPostForm() {
                  <input type="file" className='blogform7' id="file" onChange={handleIamge} required/>
                  </div>
                  <textarea className='blogform8' placeholder="Enter Description" value={description} onChange={(e) => setDescription(e.target.value)} required/>
-                 <button type='submit' className='blogform9'>Post</button>
+                 <button type='submit' className='blogform9'>{loading ? (<BeatLoader color="#FFFFFF" 
+ loading={loading}
+        cssOverride={override}
+        size={15} />) : ( 'Post')}</button>
                 </form>
             </div>
         </div>
@@ -103,6 +120,8 @@ draggable
 pauseOnHover
 theme="light"
 />
+
+
     </div>
   )
 }

@@ -19,7 +19,7 @@ const ViewBlogs = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/get")
+      .get("https://clikintechwebsite.onrender.com/api/get")
       .then(res => {setCardData(res.data.blog)
         setISLodaing(false)
       })

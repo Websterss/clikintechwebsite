@@ -44,7 +44,7 @@ function Login() {
                 e.preventDefault();
 
                 try {
-                     const url = "http://localhost:5000/signin";
+                     const url = "https://clikintechwebsite.onrender.com/signin";
                      const  data  = await axios.post(url, {email, password});
                      console.log(data)
                     if(data.status === 201){
