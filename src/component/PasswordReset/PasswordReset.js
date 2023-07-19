@@ -73,8 +73,8 @@ function PasswordReset() {
     <div className='login'>
         <div className='login1'>
             <form className='login2' onSubmit={handleSubmit}>
-            <h4 className='login3'>Forgot Password</h4>
-            <input className='logininput1' type="password" placeholder='Enter Email' value={password} onChange={(e) => setPassword(e.target.value)} required/>
+            <h4 className='login3'>Create New Password</h4>
+            <input className='logininput1' type="password" placeholder='Enter Password' value={password} onChange={(e) => setPassword(e.target.value)} required/>
             <button type="submit" className='loginbutton'>Submit</button>
             </form>
         </div>
