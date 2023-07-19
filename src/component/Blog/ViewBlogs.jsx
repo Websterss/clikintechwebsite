@@ -8,12 +8,20 @@ import { Container, Row, Col } from 'react-bootstrap';
 import image1 from '../../res/blogimages/ourblog.png';
 import "./BlogSearch.css";
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
+import Favorite from '@mui/icons-material/Favorite';
+import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
+import { Link } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ViewBlogs = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [cardData, setCardData] = useState([]);
   const [searchTitle, setSearchTitle] = useState("");
   const [isLoading, setISLodaing]  = useState(true);
+
   const cardsPerPage = 9;
 
 
@@ -28,59 +36,6 @@ const ViewBlogs = () => {
 
 console.log(cardData);
 
-
-  // const cardData = [
-  //   {
-  //     title: 'The Ultimate Guide To SEO Success in 2023',
-  //     text: 'Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'Mastering Social Media Analytics: Measuring Success',
-  //     text: 'Learn how to effectively measure and optimize your social media marketing strategies.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'Unleashing The Potential Of Data-Driven marketing',
-  //     text: 'Discover the strategies and tools to harness the power of data to limitness possibilities of data-driven marketing.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'The Ultimate Guide To SEO Success in 2023',
-  //     text: 'Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'Mastering Social Media Analytics: Measuring Success',
-  //     text: 'Learn how to effectively measure and optimize your social media marketing strategies.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'Unleashing The Potential Of Data-Driven marketing',
-  //     text: 'Discover the strategies and tools to harness the power of data to limitness possibilities of data-driven marketing.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'The Ultimate Guide To SEO Success in 2023',
-  //     text: 'Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'Mastering Social Media Analytics: Measuring Success',
-  //     text: 'Learn how to effectively measure and optimize your social media marketing strategies.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'Unleashing The Potential Of Data-Driven marketing',
-  //     text: 'Discover the strategies and tools to harness the power of data to limitness possibilities of data-driven marketing.',
-  //     image: image,
-  //   },
-  //   {
-  //     title: 'The Ultimate Guide To SEO Success in 2023',
-  //     text: 'Stay ahead of the competition with SEO strategies which will improve your website ranking and organic traffic.',
-  //     image: image,
-  //   },
-  // ];
 
 
 
@@ -105,6 +60,24 @@ console.log(cardData);
 
   const handlePreviousClick = () => {
     setCurrentPage(currentPage - 1);
+  };
+
+  const handleShareImageClick = (url, id) => {
+    const urlToCopy = `${url}/${id}`;
+    navigator.clipboard.writeText(urlToCopy).then(
+      () => {
+        // Show success toast notification
+        toast.success('URL copied to clipboard!', {
+          position: toast.POSITION.TOP_RIGHT,
+        });
+      },
+      (err) => {
+        // Show error toast notification
+        toast.error('Failed to copy URL to clipboard!', {
+          position: toast.POSITION.TOP_RIGHT,
+        });
+      }
+    );
   };
 
   return (
@@ -143,7 +116,7 @@ console.log(cardData);
       <div className="col text-center">
         <h1 className="heading-sm">Read Top Articles</h1>
         <div className="search-bar-sm">
-          <input type="text" className="form-control rounded-0" placeholder="Search Articles" />
+          <input type="text" className="form-control rounded-0" onChange={(e) => setSearchTitle(e.target.value)}  placeholder="Search Articles" />
           <button className="btn btn-success rounded-0"><span>Search</span></button>
         </div>
       </div>
@@ -205,10 +178,28 @@ console.log(cardData);
               <div className="my-card-body">
                 <h5 className="my-card-title">{card.title}</h5>
                 <p className="my-card-text">{card.description}</p>
-                <a href="#" className="btn btn-secondary"> Explore more<i className="fas fa-angle-right"></i></a>
-                
-                <img src={likeimage} className="like-card" alt="Card" />
-                <img src={shareimage} className="share-card" alt="Card" />
+                <Link to={`/Blog/${card._id}`} className="btn btn-secondary">
+                Explore more<i className="fas fa-angle-right"></i>
+              </Link>
+                <FormControlLabel
+                className="custom-label-container" 
+                  control={<Checkbox
+                    icon={<FavoriteBorder style={{ fontSize: 25 }} />}
+                      checkedIcon={<Favorite style={{ fontSize: 25 }} />} 
+                    name="checkedH"
+                    classes={{ checked: "MuiIconButton-root Mui-checked MuiSvgIcon-root" }}
+                  />
+                  }
+                />
+                {/* <img src={likeimage} className={`like-card ${likedCards[card._id] ? 'liked' : ''}`} onClick={() => toggleLike(card._id)} alt="Card" /> */}
+                {/* <img src={shareimage} className="share-card" alt="Card" /> */}
+              <img
+                src={shareimage}
+                className="share-card"
+                alt="Card"
+                onClick={() => handleShareImageClick(window.location.href, card._id)}
+              />
+              <ToastContainer />
               </div>
             </div>
           </div>

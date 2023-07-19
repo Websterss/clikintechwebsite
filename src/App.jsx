@@ -6,6 +6,7 @@ import Navbar from './component/Navbar/Navbar';
 import FooterBottom from './component/Footer/Footer';
 import AboutUs from './component/AboutUs/AboutUs';
 import Blog from './component/Blog/Blog';
+import View from './component/Blog/View_blog';
 import ContactUs from './component/ContactUs/ContactUsmain';
 import Career from './component/Career/Career';
 import Services from './component/Our_Service/Our_Service';
@@ -42,6 +43,7 @@ function App() {
          <Private exact path="/BlogMangement" component={BlogMangement} /> 
          <Private exact path="/BlogPost" component={BlogPostForm} /> 
          <Private exact path="/BlogEdit/:id" component={BlogEdit} /> 
+         <Route exact path="/Blog/:id" component={View} /> 
       </Switch>
        <FooterBottom />
   </Router>

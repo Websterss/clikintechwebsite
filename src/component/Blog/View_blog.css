@@ -1,0 +1,26 @@
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .adjust-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .custom-h1 {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .custom-p {
+    text-align: justify;
+  }
+  
