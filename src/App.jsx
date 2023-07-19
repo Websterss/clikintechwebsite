@@ -14,6 +14,8 @@ import Login from './component/Login/Login';
 import Private from './component/Private';
 import BlogPostForm from './component/BlogMangement/BlogPostForm';
 import BlogEdit from './component/BlogMangement/BlogEdit';
+import ForgotPassword from './component/forgotpassword/ForgotPassword';
+import PasswordReset from './component/PasswordReset/PasswordReset';
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
          <Route exact path="/AboutUs" component={AboutUs} />
          <Route exact path="/Blog" component={Blog} />
          <Route exact path="/ContactUs" component={ContactUs} />
+         <Route exact path="/forgot-password" component={ForgotPassword} />
+         <Route exact path="/password-reset/:id/:token"  component={PasswordReset} />
          <Route exact path="/Career" component={Career} />
          <Route exact path="/Services" component={Services} />
          <Route exact path="/Login" component={Login} />
