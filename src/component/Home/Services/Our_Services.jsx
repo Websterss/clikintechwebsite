@@ -3,8 +3,17 @@ import "./Our_Services.css";
 import Digital_Marketing from "../../../res/HomeImages/digital Marketing.png";
 import WebDevelopment from "../../../res/HomeImages/web development.png";
 import MobileAppDevelopment from "../../../res/HomeImages/Mobile App Development.png"
+import { useHistory } from "react-router-dom";
 
 function Our_Services() {
+
+
+  const history = useHistory();
+  
+    const navigate = () => {
+        history.push("/ContactUs")
+    }
+
   return (
     <div className='our1' >
         <div className='our2'>
@@ -48,7 +57,7 @@ function Our_Services() {
           </div>
 
     <div className='book-demo-butn'>
-    <button className='bookdemo'>Book A Demo</button>
+    <button onClick={navigate} className='bookdemo'>Book A Demo</button>
     </div>
     </div>
   )
