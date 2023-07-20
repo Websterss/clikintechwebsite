@@ -12,7 +12,7 @@ function Welcome(){
     }
     return(
     <div class='div1'> 
-  <div>
+    <div>
     <img src={image} alt="imagehere" class="imgc"/> 
     </div> 
     <div class="divc">
