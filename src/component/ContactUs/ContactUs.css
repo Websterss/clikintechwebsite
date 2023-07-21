@@ -76,34 +76,131 @@
   height: 24px;
   left: 50px;
 }
-
-
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 40px;
-  }
-
-  .container h1 {
-    font-size: 36px;
-    line-height: 48px;
-  }
-
+@media screen and (max-width: 964px) and (min-width: 769px){
   .img-container {
-    margin-top: 0;
-    margin-left: 0;
-    width: 100%;
-    left: 0;
-    top: 0;
+    margin: 0 auto;
+  }
+  .btn-primary {
+    width: 600px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .container {
     padding: 20px;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   .container h1 {
     font-size: 24px;
     line-height: 36px;
+    text-align: center;
   }
+
+  .container .para {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .container .line {
+    width: 100px !important;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .form-group .form-control {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .image-text .icon2 {
+    margin-left: -35px;
+  }
+
+  .image-text .icon3 {
+    margin-left: 30px;
+  }
+
+  .img-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* Media query for screen width between 481px and 555px */
+
+@media screen and (max-width: 555px) and (min-width: 481px) {
+  .form-group .form-control {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Media query for screen width 480px and below */
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .container h1 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .container .para {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .container .line {
+    width: 100px !important;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .form-group .form-control {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .image-text .icon2 {
+    margin-left: -30px;
+  }
+
+  .image-text .icon3 {
+    margin-left: 30px;
+  }
+
+  .img-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .image-text {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 361px) {
+  .icon3 {
+    margin-left: -1px !important;
+  }
+
 }
