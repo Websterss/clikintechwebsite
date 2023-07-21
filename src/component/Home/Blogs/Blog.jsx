@@ -77,7 +77,7 @@ const Blog = () => {
                             <div className="my-card-body">
                               <h5 className="my-card-title">{card.title}</h5>
                               <p className="my-card-text">{card.description}</p>
-                              <a href="#" className="btn1">Explore more</a>
+                              <a href="/Blog" className="btn1">Explore more</a>
                             </div>
                           </div>
                         </div>

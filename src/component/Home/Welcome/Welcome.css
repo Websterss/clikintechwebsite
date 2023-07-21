@@ -163,10 +163,11 @@ width: 400px;
 
 @media only screen and (max-width: 380px){
 .div1{
- height: 110vh;
+ height: 130vh;
 }
 .divc{
-  width: 300px;
+  width:300px;
+  height:680px;
 }
 .title{
   font-size: 30px;
@@ -175,7 +176,7 @@ width: 400px;
   font-size: 14px;
 }
 .imgc{
-  margin-top: 130px;
+  margin-top: 60px;
   height: 300px;
   width: 300px;
 }

@@ -131,7 +131,7 @@ h3.heading-lg {
   }
   
   h3.heading-sm {
-    font-size: 30px;
+    font-size: 29px !important;
     line-height: 40px;
     margin-bottom: 10px;
   }
