@@ -1,77 +1,92 @@
-/* ContactUshead.css */
 
-.custom-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px;
-   background: #050921;
-   color: white;
-  font-family: 'Inter'; 
+.app-container-c {
+  background: #050921;
+  font-family: 'Inter';
 }
-
-.custom-heading {
-  text-align: left;
-}
-
 .text1 {
-  font-size: 67px;
-  line-height: 38px;
-  margin-bottom: 20px;
+  font-size: 30px !important;
+  margin-top: 80px !important;
+  margin-bottom: -80px !important;
+  color: white;
+  margin-left: -10px !important;
 }
-
-.text2 {
-  font-size: 24px;
-  line-height: 46px;
-}
-
-.custom-image {
-  text-align: right;
-}
-
 .image-size {
   width: 600px;
   height: auto;
+  margin-left: -130px;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  .custom-container {
-    flex-direction: column;
-    align-items: center;
-   background: #050921;
-  }
+.smc {
+  background: #050921;
+  font-family: 'Inter';
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+}
 
-  .text1 {
-    font-size: 30px;
-    line-height: 40px;
-    margin-bottom: 10px;
-  }
+.bbc {
+  width: 100%;
+  max-width: 1200px;
+}
 
-  .text2 {
-    font-size: 20px;
-    line-height: 30px;
-  }
+.present-image-c {
+  position: absolute;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-left: 5%;
+  margin-top: -50%;
+}
+.img-back-c {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  border-radius: 0 0 50% 50%;
+  overflow: hidden;
+  margin-top: -400px;
+  background: #FFFFFF;
+}
 
-  .image-size {
-    width: 300px;
+
+
+.heading-sm-d {
+  font-weight: 400;
+  font-size: 20px !important;
+  color: white;
+  text-align: left;
+  margin-top: 120px;
+}
+
+.heading-sm-c {
+  font-weight: 600;
+  font-size: 30px !important;
+  color: white;
+  text-align: left;
+  margin-left: -10px !important;
+  text-align: left !important;
+} 
+@media (max-width: 736px) and (min-width: 400px){
+  .present-image-c {
+    position: absolute; 
+    width: 50%;
+    display: block;
+    margin-top: -30%;
+    margin-left: 15%; /* Adjust this value as per your preference */
+  }
+}
+@media (max-width: 1000px) and (min-width: 737px){
+  .present-image-c {
+    position: absolute; 
+    width: 50%;
+    display: block;
+    margin-top: -25%;
+    margin-left: 15%; /* Adjust this value as per your preference */
   }
 }
 
-@media screen and (max-width: 480px) {
-  .text1 {
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 10px;
-  }
 
-  .text2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
 
-  .image-size {
-    width: 200px;
-  }
-}
+

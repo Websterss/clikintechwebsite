@@ -24,39 +24,21 @@ line-height: 25px;
 color: #FFFFFF;
 margin-top: 16px;
 }
-/* .topbar-button{
+.topbar-button{
     margin-left: 80px;
     width: 169px;
     height: 40px;
     left: 861px;
     top: 20px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #070944;
-background: #CCE9FF;
-border-radius: 30px;
-} */
-
-.topbar-link{
-    margin-left: 80px;
-    width: 169px;
-    /* height: 40px;
-    left: 861px;
-    top: 20px; */
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #070944;
-background: #CCE9FF;
-border-radius: 30px;
-padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #070944;
+    background: #CCE9FF;
+    border-radius: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -74,7 +56,7 @@ padding: 10px;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 30px;
     text-align: center;
     color: #070944;
     background: #CCE9FF;
@@ -97,7 +79,7 @@ padding: 10px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 30px;
     text-align: center;
     color: #070944;
     background: #CCE9FF;

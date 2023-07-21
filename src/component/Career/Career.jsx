@@ -45,7 +45,7 @@ function Career(){
            
 
             {/* Small Screens */}
-            <div className="d-lg-none container-sm">
+            <div className="d-lg-none container-fluid sm">
                 <div className="img-front"></div>
                 <div className="container bb">
                     <div className="row r">
@@ -59,11 +59,6 @@ function Career(){
                     <div className="row r">
                         <div className="col text-center">
                         <h3 className="heading-sm"><span>Join our Team</span><br></br>Work with Clikin Tech</h3>
-                        <div className="search-bar-sm">
-                          <input type="text" className="form-control rounded-0" placeholder="Search Career" />
-                          <button className="btn btn-success rounded-0"><span>Search</span></button>
-                          </div>
-                        
                           <div className="career-career-btn">
                            <button className="career-btn-sm"  type="button" aria-expanded="false">
                                Get Started

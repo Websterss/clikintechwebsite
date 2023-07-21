@@ -1,48 +1,46 @@
 .career-form{
-    font-family: 'Inter';
+  font-family: 'Inter';
 }
 
 @media screen and (max-width: 768px){
-    .form_gender  {
-        width: 600px;
-        margin-left: -2rem;
-        padding-bottom: 2rem;
-    }
+  .form_gender  {
+      width: 600px;
+      margin-left: -2rem;
+      padding-bottom: 2rem;
+  }
 
-    .form-forms{
-        width: 600px;
-        margin-left: -2rem;
-        padding-bottom: 2rem;
-       
-    }
+  .form-forms{
+      width: 600px;
+      margin-left: -2rem;
+      padding-bottom: 2rem;
+     
+  }
 
-    .form-form-btn{
-        width: 600px;
-        margin-left: -2rem;
-        padding-bottom: 2rem;
-    }
-    }
+  .form-form-btn{
+      width: 600px;
+      margin-left: -2rem;
+      padding-bottom: 2rem;
+  }
+  }
 
-    @media screen and (max-width: 480px){
-        .form_gender  {
-            width: 380px;
-            margin-left: -2rem;
-            padding-bottom: 2rem;
-        }
-    
-        .form-forms{
-            width: 300px;
-            margin-left: -2rem;
-            padding-bottom: 2rem;
-           
-        }
-    
-        .form-form-btn{
-            width: 100px;
-            margin-left: -2rem;
-            padding-bottom: 2rem;
-        }
+  @media screen and (max-width: 480px){
+      .form_gender  {
+          width: 380px;
+          margin-left: -2rem;
+          padding-bottom: 2rem;
+      }
+  
+      .form-forms{
+          width: 300px;
+          margin-left: -2rem;
+          padding-bottom: 2rem;
+         
+      }
+  
+      .form-form-btn{
+          width: 100px;
+          margin-left: -2rem;
+          padding-bottom: 2rem;
+      }
 
-    }
-
-
+  }
