@@ -116,7 +116,7 @@ console.log(cardData);
       <div className="col text-center">
         <h1 className="heading-sm">Read Top Articles</h1>
         <div className="search-bar-sm">
-          <input type="text" className="form-control rounded-0" onChange={(e) => setSearchTitle(e.target.value)}  placeholder="Search Articles" />
+          <input type="text" className="form-control f-s-b rounded-0" onChange={(e) => setSearchTitle(e.target.value)}  placeholder="Search Articles" />
           <button className="btn btn-success rounded-0"><span>Search</span></button>
         </div>
       </div>

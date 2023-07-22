@@ -120,7 +120,7 @@ h3.heading-lg {
     height: 350px;
     border-radius: 0 0 50% 50%;
     overflow: hidden;
-    margin-top: -400px;
+    margin-top: -350px;
     background: #bbcdec;
   }
 
@@ -130,8 +130,8 @@ h3.heading-lg {
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-left: 15%;
-  margin-top: -8%;
+  margin-left: 18%;
+  margin-top: -10%;
   }
 
 
@@ -168,9 +168,6 @@ h3.heading-lg {
     line-height: 30px;
         
       }
-    .btn-success {
-      margin-top: -10px;
-    }
 
     .img-imgs{
       height: 300px;
@@ -195,10 +192,6 @@ h3.heading-lg {
       }
     .container-sm {
       padding: 110px !important;
-    }
-    .btn-success {
-      margin-top: -20px;
-      width: 120px;
     }
     .career_img {
       margin: 0 auto;

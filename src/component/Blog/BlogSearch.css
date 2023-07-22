@@ -35,6 +35,11 @@
   width: 600px;
   margin-right: 5px;
 }
+.f-s-b{
+  height: 50px;
+  width: 200px;
+  margin-right: 5px;
+}
 
 .btn-success {
   background-color: #4356C8 !important;
@@ -125,12 +130,13 @@
   height: 350px;
   border-radius: 0 0 50% 50%;
   overflow: hidden;
-  margin-top: -400px;
+  margin-top: -350px;
   background: #BFBFBF;
 }
 
 @media screen and (max-width: 1200px) {
   .sm {
     padding: 150px;
+
   }
 }
