@@ -6,8 +6,8 @@
 
 h4.head-lg{
     color: rgb(206, 226, 244);
-    padding-top: 4rem;
     margin-top: 4rem;
+    padding-top: 4rem;
 }
 
 
@@ -15,8 +15,8 @@ h3.heading-lg {
     font-weight: 500;
     font-size: 58px;
     margin-bottom: 20px;
-    color: white;
     margin-top: 0px !important;
+    color: white;
   }
 
 .career-btn{

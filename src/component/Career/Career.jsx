@@ -45,6 +45,7 @@ function Career(){
            
 
             {/* Small Screens */}
+            
             <div className="d-lg-none container-fluid sm">
                 <div className="img-front"></div>
                 <div className="container bb">
