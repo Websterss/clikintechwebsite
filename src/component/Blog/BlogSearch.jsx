@@ -13,7 +13,7 @@ function BlogSearch() {
             <Col md={8}>
               <h1 className="heading-lg">Read Top Articles</h1>
               <div className="search-bar-lg">
-                <input type="text" className="form-control rounded-0" placeholder="Search Articles" />
+                <input type="text" className="form-control fc rounded-0" placeholder="Search Articles" />
                 <button className="btn btn-success rounded-0"><span>Search</span></button>
               </div>
             </Col>
@@ -37,7 +37,7 @@ function BlogSearch() {
       <div className="col text-center">
         <h1 className="heading-sm">Read Top Articles</h1>
         <div className="search-bar-sm">
-          <input type="text" className="form-control rounded-0" placeholder="Search Articles" />
+          <input type="text" className="form-control fc rounded-0" placeholder="Search Articles" />
           <button className="btn btn-success rounded-0"><span>Search</span></button>
         </div>
       </div>

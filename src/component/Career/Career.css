@@ -52,32 +52,7 @@ h3.heading-lg {
 
 
 
-.form-btn{
-    width: 605px;
-    height: 50px;
-    background-color: #050921 ;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    
-    color: #FFFFFF;
-    border: 1.5px solid #D7D7D7;
-    border-radius: 10px;
-}
 
-.form-form-btn{
-    padding-top: 2rem;
-}
-
-.form_container{
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    margin-left: 4rem;
-}
-
-.form_gender  {
-    width: 600px;
-}
 
 .career_img{
     width: 65vw;
@@ -88,11 +63,7 @@ h3.heading-lg {
 }
 
 
-.form-heading{
-    margin-left: 4rem;
-    margin-top: 4rem;
-    font-weight: 600;
-}
+
 
 
 
@@ -142,19 +113,6 @@ h3.heading-lg {
     line-height: 40px;
     margin-bottom: 10px;
   }
-  
-  
-  .search-bar-sm {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .search-bar-sm input {
-    flex: 1;
-    margin-right: 5px;
-    height: 50px;
-  }
 
   .img-front {
     position: absolute;
@@ -162,7 +120,7 @@ h3.heading-lg {
     height: 350px;
     border-radius: 0 0 50% 50%;
     overflow: hidden;
-    margin-top: -350px;
+    margin-top: -400px;
     background: #bbcdec;
   }
 
@@ -210,12 +168,6 @@ h3.heading-lg {
     line-height: 30px;
         
       }
-    
-    
-    .search-bar-sm input {
-      width: 100%;
-      margin-bottom: 10px;
-    }
     .btn-success {
       margin-top: -10px;
     }
@@ -244,15 +196,6 @@ h3.heading-lg {
     .container-sm {
       padding: 110px !important;
     }
-    .search-bar-sm {
-      flex-wrap: wrap;
-    }
-    
-    .search-bar-sm input {
-      width: 100%;
-      margin-bottom: 10px;
-      margin-top: -10px;
-    }
     .btn-success {
       margin-top: -20px;
       width: 120px;
@@ -263,3 +206,4 @@ h3.heading-lg {
       margin-bottom: 50px;
     }
   }
+  

@@ -70,7 +70,7 @@ const ContactUs = () => {
                     type="text"
                     name="user_name"
                     placeholder="Enter your name"
-                    className="form-control"                 
+                    className="form-control fs"                 
                   />
                   <ErrorMessage
                     name="name"
@@ -83,7 +83,7 @@ const ContactUs = () => {
                     type="text"
                     name="user_email"
                     placeholder="Enter your email address"
-                    className="form-control"
+                    className="form-control fs"
                   
                   />
                   <ErrorMessage
@@ -97,7 +97,7 @@ const ContactUs = () => {
                     type="text"
                     name="phone"
                     placeholder="Enter your phone number"
-                    className="form-control"
+                    className="form-control fs"
       
                   />
                   <ErrorMessage
@@ -111,7 +111,7 @@ const ContactUs = () => {
                     as="textarea"
                     name="message"
                     placeholder="Enter your message"
-                    className="form-control"
+                    className="form-control fs"
                     style={{
                       height: "100px", 
                       border: "none", 

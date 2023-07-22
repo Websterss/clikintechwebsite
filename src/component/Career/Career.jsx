@@ -75,7 +75,7 @@ function Career(){
 
         </div>
              <div className="page_container">
-                  <CareerPage/>
+                  {/* <CareerPage/> */}
                </div>
 
                <div>

@@ -3,7 +3,7 @@
 /* Increase distance between form fields */
 
 
-.form-group .form-control {
+.form-group .fs {
     margin-bottom: 20px;
     background-color: rgb(241, 237, 237);
     border-radius: 0.5rem;

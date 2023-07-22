@@ -125,7 +125,7 @@
   height: 350px;
   border-radius: 0 0 50% 50%;
   overflow: hidden;
-  margin-top: -350px;
+  margin-top: -400px;
   background: #BFBFBF;
 }
 
@@ -134,5 +134,3 @@
     padding: 150px;
   }
 }
-
-

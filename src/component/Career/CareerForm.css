@@ -2,15 +2,65 @@
   font-family: 'Inter';
 }
 
-@media screen and (max-width: 768px){
-  .form_gender  {
-      width: 600px;
+.form-btn{
+    width: 600px;
+    height: 50px;
+    background-color: #050921 ;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    border: 1.5px solid #D7D7D7;
+    border-radius: 10px;
+}
+
+.form-form-btn{
+    padding-top: 2rem;
+}
+.form_form{
+    width: 600px;
+    height: 60px;
+}
+.form_form2{
+    width: 600px;
+    height: 60px;
+}
+.form_form_gender select{
+    width: 600px;
+    height: 60px;
+}
+.form_container{
+    margin-top: 50px;
+    margin-bottom: 3rem;
+    margin-left: 120px;
+}
+.form_form_other{
+    margin-top: 30px;
+    margin-left: 720px;
+    width: 600px;
+    height: 60px;
+}
+.form-heading{
+    margin-left: 120px;
+    margin-top: 4rem;
+    font-weight: 600;
+}
+.line-career {
+    width: 120px;
+    background-color: #ffffff;
+    border: 3px solid #a9641f;
+    margin-left: 120px;
+  }
+/* @media screen and (max-width: 768px){
+  .form_form2  {
+      width: 600px ;
       margin-left: -2rem;
       padding-bottom: 2rem;
   }
 
-  .form-forms{
-      width: 600px;
+  .form-form{
+      width: 300px !important;
       margin-left: -2rem;
       padding-bottom: 2rem;
      
@@ -24,13 +74,13 @@
   }
 
   @media screen and (max-width: 480px){
-      .form_gender  {
-          width: 380px;
+      .form_form2  {
+          width: 300px;
           margin-left: -2rem;
           padding-bottom: 2rem;
       }
   
-      .form-forms{
+      .form_container .form-row .form-form{
           width: 300px;
           margin-left: -2rem;
           padding-bottom: 2rem;
@@ -43,4 +93,117 @@
           padding-bottom: 2rem;
       }
 
+  } */
+
+  @media screen and (max-width: 1256px) 
+  {
+    .form_form,
+    .form_form2,
+    .form_form_gender select,
+    .form_form_other {
+      width: 500px;
+      margin-bottom: 20px;
+    }
+    .form-btn {
+        width: 500px; 
+      }
   }
+  @media screen and (max-width: 982px) 
+  {
+    .form_form,
+    .form_form2,
+    .form_form_gender select,
+    .form_form_other {
+      width: 350px;
+      margin-bottom: 20px;
+    }
+    .form-btn {
+        width: 350px; 
+      }
+  }
+
+  @media screen and (max-width: 768px) {
+    .career-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .form_container {
+      margin-left: 20px; /* Remove the left margin to center the form */
+    }
+  
+    .form-heading {
+      margin-left: 0; /* Remove the left margin to center the heading */
+    }
+  
+    .line-career {
+      margin-left: 0; /* Remove the left margin to center the line */
+    }
+  
+    .form_form,
+    .form_form2,
+    .form_form_gender select,
+    .form_form_other {
+      width: 320px; /* Adjust the width for mobile */
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+    .form_form_other {
+      margin-left: 0;
+    }
+  
+    .form_form_gender select {
+      margin-left: 0;
+    }
+  
+    .form-btn {
+      width: 320px; /* Adjust the width for mobile */
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 675px) and (min-width: 375px){
+    .career-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .form_container {
+      margin-left: 0;
+      padding-left: 20px;
+      padding-right: 20px; /* Remove the left margin to center the form */
+    }
+
+    .form-heading {
+      margin-left: 0; /* Remove the left margin to center the heading */
+    }
+
+    .line-career {
+      margin-left: 0; /* Remove the left margin to center the line */
+    }
+
+    .form_form,
+    .form_form2,
+    .form_form_gender select,
+    .form_form_other {
+      width: 400px; /* Adjust the width for smaller screens */
+      margin-left: 0;
+    }
+
+    .form_form_other {
+      margin-left: 0;
+    }
+
+    .form_form_gender select {
+      margin-left: 0;
+    }
+
+    .form-btn {
+      width: 400px; /* Adjust the width for smaller screens */
+      margin-left: 0;
+    }
+  }
+
+  

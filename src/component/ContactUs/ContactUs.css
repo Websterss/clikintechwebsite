@@ -1,11 +1,11 @@
 
-.form-group .form-control {
+.form-group .fs {
   margin-bottom: 20px;
   background-color: rgb(241, 237, 237);
   border-radius: 0.5rem;
   height: 60px;
 }
-.form-control{
+.fs{
   margin-bottom: 20px;
 }
 
@@ -112,7 +112,7 @@
     margin-top: -10px;
   }
 
-  .form-group .form-control {
+  .form-group .fs {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -140,7 +140,7 @@
 /* Media query for screen width between 481px and 555px */
 
 @media screen and (max-width: 555px) and (min-width: 481px) {
-  .form-group .form-control {
+  .form-group .fs {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -173,7 +173,7 @@
     margin-top: -10px;
   }
 
-  .form-group .form-control {
+  .form-group .fs {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
