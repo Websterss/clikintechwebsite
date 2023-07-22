@@ -2,9 +2,47 @@ import Col from 'react-bootstrap/Col'
 import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
 import './CareerForm.css'
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { Formik, Field, ErrorMessage } from "formik";
+import * as yup from "yup";
+import emailjs from '@emailjs/browser';
 
 function CareerForm() {
+
+  const [formObject, setFormObject] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const phoneRegExp =
+    /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
+
+  const validation = yup.object().shape({
+    name: yup.string().min(2).max(15).required("Please enter your name"),
+    email: yup
+      .string()
+      .required("Please enter your email")
+      .email("Please enter a valid email"),
+    phone: yup.string().matches(phoneRegExp, "Phone number is not valid"),
+    message: yup
+      .string()
+      .min(10)
+      .max(200),
+  });
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_7um1nss', 'template_6vkfrxg', form.current, 'DhM3EP4ecpg8d5zrt')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   const [selectedCountry, setSelectedCountry] = useState('');
 
@@ -15,7 +53,19 @@ function CareerForm() {
     <div class="career-form">
     <h1 className='form-heading'>Apply now</h1>
     <hr className='line-career'></hr>
-    <Form className='form_container'>
+
+    <div>
+    <Formik
+        initialValues={formObject}
+        validationSchema={validation}
+        validateOnBlur={false}
+        validateOnChange={false}
+        onSubmit={(values, actions) => {
+          // Handle form submission
+        }}
+      >
+
+     <Form className='form_container' ref={form} onSubmit={sendEmail}>
       <Row>
         <Col>
           <Form.Control  className="form_form" placeholder="Enter First name*" style={{ backgroundColor: '#F1EDED'}} />
@@ -88,6 +138,10 @@ function CareerForm() {
         </Col>
       </Row>
      </Form>
+
+    </Formik> 
+    </div>
+    
      </div>
   )
 }
