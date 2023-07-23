@@ -3,9 +3,10 @@ import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
 import './CareerForm.css'
 import React, { useState, useRef } from 'react';
-import { Formik, Field, ErrorMessage } from "formik";
+import { Formik} from "formik";
 import * as yup from "yup";
 import emailjs from '@emailjs/browser';
+import { Padding } from '@mui/icons-material';
 
 function CareerForm() {
 
@@ -36,19 +37,31 @@ function CareerForm() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_7um1nss', 'template_6vkfrxg', form.current, 'DhM3EP4ecpg8d5zrt')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+    emailjs.sendForm('service_7um1nss', 'template_tnseqft', form.current, 'DhM3EP4ecpg8d5zrt')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+};
 
   const [selectedCountry, setSelectedCountry] = useState('');
 
   const handleCountryChange = (event) => {
     setSelectedCountry(event.target.value);
   };
+
+  const [selectedFile, setSelectedFile] = useState();
+	const [isFilePicked, setIsFilePicked] = useState(false);
+
+  const changeHandler = (event) => {
+		setSelectedFile(event.target.files[0]);
+		setIsFilePicked(true);
+	};
+
+	const handleSubmission = () => {
+	};
+
   return (
     <div class="career-form">
     <h1 className='form-heading'>Apply now</h1>
@@ -124,7 +137,10 @@ function CareerForm() {
           <Form.Control className="form_form" as="textarea" placeholder="Message" rows={6} style={{ backgroundColor: '#F1EDED'}} />
         </Col>
         <Col>
-          <Form.Control className="form_form2" placeholder="Upload Your CV here*" style={{ backgroundColor: '#F1EDED'}} />
+        <div>
+			<input className="form_form1" type="file" name="file" onChange={changeHandler} style={{ backgroundColor: '#F1EDED'}} />
+			
+		</div>
         </Col>
       </Row>
       <Row>
