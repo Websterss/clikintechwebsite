@@ -138,7 +138,7 @@ function CareerForm() {
         </Col>
         <Col>
         <div>
-			<input className="form_form1" type="file" name="file"  onChange={changeHandler} style={{ backgroundColor: '#F1EDED'}} />
+			<input className="form_form1" type="file" name="file" onChange={changeHandler} style={{ backgroundColor: '#F1EDED'}} />
 			
 		</div>
         </Col>
