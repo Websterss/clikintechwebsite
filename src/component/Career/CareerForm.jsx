@@ -36,7 +36,7 @@ function CareerForm() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_7um1nss', 'template_6vkfrxg', form.current, 'DhM3EP4ecpg8d5zrt')
+    emailjs.sendForm('service_7um1nss', 'template_tnseqft', form.current, 'DhM3EP4ecpg8d5zrt')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -68,26 +68,26 @@ function CareerForm() {
      <Form className='form_container' ref={form} onSubmit={sendEmail}>
       <Row>
         <Col>
-          <Form.Control  className="form_form" placeholder="Enter First name*" style={{ backgroundColor: '#F1EDED'}} />
+          <Form.Control  className="form_form" placeholder="Enter First name*" name="user_first_name" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
         <Col>
-          <Form.Control  className="form_form2"  placeholder="Enter Last name*" style={{ backgroundColor: '#F1EDED'}}/>
+          <Form.Control  className="form_form2"  placeholder="Enter Last name*" name="user_last_name" style={{ backgroundColor: '#F1EDED'}}/>
         </Col>
       </Row>
      <br />
       <Row>
         <Col>
-          <Form.Control  className="form_form" placeholder="Enter email address*" style={{ backgroundColor: '#F1EDED'}} />
+          <Form.Control  className="form_form" placeholder="Enter email address*" name="user_email" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
         <Col>
-          <Form.Control  className="form_form2" placeholder="Enter Phone no.*" style={{ backgroundColor: '#F1EDED'}}/>
+          <Form.Control  className="form_form2" placeholder="Enter Phone no.*" name="phone" style={{ backgroundColor: '#F1EDED'}}/>
         </Col>
       </Row>
       <br />
       <Row>
         <Col>
         <Form.Group as={Col} className='form_form_gender'>
-        <Form.Select defaultValue="Gender*"style={{ backgroundColor: '#F1EDED'}} >
+        <Form.Select defaultValue="Gender*" name="gender" style={{ backgroundColor: '#F1EDED'}} >
             <option>Gender*</option>
             <option>Male</option>
             <option>Female</option>
@@ -98,6 +98,7 @@ function CareerForm() {
         <Col>
         <Form.Group as={Col} className="form_form_gender">
               <Form.Select
+              name="country"
                 value={selectedCountry}
                 onChange={handleCountryChange}
                 style={{ backgroundColor: '#F1EDED' }}
@@ -121,16 +122,16 @@ function CareerForm() {
       <br />
       <Row>
         <Col>
-          <Form.Control className="form_form" as="textarea" placeholder="Message" rows={6} style={{ backgroundColor: '#F1EDED'}} />
+          <Form.Control className="form_form" as="textarea" placeholder="Message" name="message" rows={6} style={{ backgroundColor: '#F1EDED'}} />
         </Col>
         <Col>
-          <Form.Control className="form_form2" placeholder="Upload Your CV here*" style={{ backgroundColor: '#F1EDED'}} />
+          <Form.Control className="form_form2" placeholder="Upload Your CV here*" name="cv" style={{ backgroundColor: '#F1EDED'}} />
         </Col>
       </Row>
       <Row>
         <Col>
         <div className="form-form-btn">
-           <button className="form-btn"  type="button" aria-expanded="false">
+           <button className="form-btn"  type="submit" aria-expanded="false">
              Submit
             </button>
            </div>
