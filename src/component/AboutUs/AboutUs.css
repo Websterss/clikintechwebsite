@@ -80,7 +80,7 @@
 width: 95px;
 height: 24px;
 left: calc(50% - 95px/2 + 0.5px);
-top: 710px;
+top: 690px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -238,6 +238,7 @@ position: absolute;
 }
 .div4-ab{
   display: flex;
+  margin-top: 100px;
 }
 .div5-ab{
   display: flex;
@@ -333,7 +334,7 @@ position: absolute;
   width: 95px;
   height: 24px;
   left: calc(50% - 95px/2 + 0.5px);
-  top: 730px;
+  top: 660px;
   
   font-family: 'Inter';
   font-style: normal;
@@ -378,7 +379,7 @@ position: absolute;
       width: 220px;
       height: 193.19px;
       left: calc(50% - 220px/2);
-      top: 774px;
+      top: 734px;
       
     }
     .heading2-ab {
@@ -491,6 +492,8 @@ position: absolute;
   }
   .div4-ab{
     display: flex;
+    margin-top: 150px;
+    
   }
   .div5-ab{
     display: flex;
@@ -573,7 +576,7 @@ position: absolute;
     font-size: 50px;
     line-height: 61px;
     left: calc(50% - 233px / 2 - 0.5px);
-    top: 1220px;
+    top: 1180px;
     /* identical to box height */
 
     color: #000000;
